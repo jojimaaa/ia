@@ -1,5 +1,6 @@
 import numpy as np
 from jojitree import JojiTree
+from jojiforest import JojiForest
 from dataHandling import loadFile, splitData
 
 def main():
@@ -7,20 +8,23 @@ def main():
 
     x_train, x_test, y_train, y_test = splitData(X_train, Y_train)
 
-    classifier = JojiTree(maxDepth=4)
+    # classifier = JojiTree(maxDepth=4)
+
+    forest = JojiForest(2, 5)
 
     # train
-    classifier.fit(x_train, y_train)
+    # classifier.fit(x_train, y_train)
+    forest.fit(x_train, y_train)
 
     # predict
-    y_hat = classifier.predict(x_test)
+    # y_hat = classifier.predict(x_test)
 
     # calculating error rate
     misses = 0
 
-    for index, y in enumerate(y_hat):
-        if (y != y_test[index]):
-            misses += 1
+    # for index, y in enumerate(y_hat):
+    #     if (y != y_test[index]):
+    #         misses += 1
 
     # printing
     print(f"Error rate: {misses/len(y_test)}")

@@ -1,7 +1,7 @@
 import numpy as np
 from jojitree import JojiTree
 from jojiforest import JojiForest
-from dataHandling import loadFile, splitData
+from dataHandling import loadFile, splitData, exportPredictions
 
 def main():
     X_train, Y_train, X_test = loadFile('data.npz')
@@ -28,6 +28,8 @@ def main():
 
     # printing
     print(f"Error rate: {misses/len(y_test)}")
+
+    exportPredictions(y_test=y_test)
 
     return
 

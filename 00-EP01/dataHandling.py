@@ -1,5 +1,7 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
+import pandas as pd
+from datetime import datetime
 
 def loadFile(path: str):
     data = np.load(path)
@@ -26,3 +28,19 @@ def splitData(
         shuffle=shuffle
     )
     return X_train, X_test, y_train, y_test
+
+def exportPredictions(
+    y_test: np.ndarray
+):
+    dataframe = pd.DataFrame({
+        'ID': np.arange(1, len(y_test) + 1),
+        'Prediction': y_test
+    })
+
+    now = datetime.now().isoformat()
+
+    print(now)
+
+    dataframe.to_csv(f"outputs/predictions_{now}.csv", index=False)
+
+

@@ -43,4 +43,18 @@ def exportPredictions(
 
     dataframe.to_csv(f"outputs/predictions_{now}.csv", index=False)
 
+def accuracyAndError(
+    y_hat: np.ndarray, # predictions
+    y_exp: np.ndarray  # expected
+):
+    # calculating error rate
+    hits = 0
 
+    for index, y in enumerate(y_hat):
+        if (y == y_exp[index]):
+            hits += 1
+
+    accuracy = hits / len(y_exp)
+    errorRate = 1 - accuracy
+
+    return accuracy, errorRate

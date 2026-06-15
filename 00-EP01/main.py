@@ -1,12 +1,12 @@
 import numpy as np
 from jojitree import JojiTree
 from jojiforest import JojiForest
-from dataHandling import loadFile, splitData, exportPredictions
+import dataHandling as dh
 
 def main():
-    X_train, Y_train, X_test = loadFile('data.npz')
+    X_train, Y_train, X_test = dh.loadFile('data.npz')
 
-    x_train, x_test, y_train, y_test = splitData(X_train, Y_train)
+    x_train, x_test, y_train, y_test = dh.splitData(X_train, Y_train)
 
     # classifier = JojiTree(maxDepth=4)
 
@@ -19,17 +19,9 @@ def main():
     # predict
     # y_hat = classifier.predict(x_test)
 
-    # calculating error rate
-    misses = 0
+    accuracy, errorRate = dh.exportPredictions(y_test=y_test)
 
-    # for index, y in enumerate(y_hat):
-    #     if (y != y_test[index]):
-    #         misses += 1
-
-    # printing
-    print(f"Error rate: {misses/len(y_test)}")
-
-    exportPredictions(y_test=y_test)
+    print(f"Accuracy: {accuracy}")
 
     return
 

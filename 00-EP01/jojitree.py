@@ -138,8 +138,8 @@ class JojiTree:
     def _getOrthogonalSplits(self, X: np.ndarray, Y: np.ndarray):
         X_left_best = None
         X_right_best = None
-        X_left_best = None
-        X_right_best = None
+        Y_left_best = None
+        Y_right_best = None
 
         w_star, th_star = -1, -1
         max_info_gain = -float("inf")

@@ -15,8 +15,8 @@ class JojiTree:
     def __init__(
         self,
         maxDepth: int = 4,
-        gainMethod: GainMethod  = "entropy",
-        splitMethod: SplitMethod = "orthogonal"
+        gainMethod: GainMethod  = "entropy", # gini, ...
+        splitMethod: SplitMethod = "orthogonal" # random, PCA, SVM, ...
     ):
         if (not GAINMETHODS.__contains__(gainMethod)):
             raise TypeError(f'Invalid Gain Method: {gainMethod}.')
@@ -28,6 +28,7 @@ class JojiTree:
         self.maxDepth = maxDepth
         self.gainMethod = gainMethod
         self.splitMethod = splitMethod
+        self.featureIndexes = None
 
         print(18*"=" + f" Created JojiTree " + 18*"=")
         print(f'gainMethod: {self.gainMethod}')
@@ -92,7 +93,12 @@ class JojiTree:
         values, counts = np.unique(Y, return_counts=True)
         return values[np.argmax(counts)]
 
-    def fit(self, X: NDArray, Y: NDArray):
+    def fit(self, X: NDArray, Y: NDArray, featureIndexes: NDArray | None = None):
+        if (featureIndexes == None):
+            self.featureIndexes = np.arange(len(Y))
+        else:
+            self.featureIndexes = featureIndexes
+
         self.root = self._buildTree(X, Y)
 
     def predict(self, X: np.ndarray) -> list:
@@ -114,6 +120,9 @@ class JojiTree:
             case "orthogonal":
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getOrthogonalSplits(X, Y)
 
+            case "SVM":
+                #...
+                return
         return X_left, X_right, Y_left, Y_right, w_star, th_star
 
     def _makeOrthogonalPrediction(self, x: NDArray, tree: Node):

@@ -8,14 +8,14 @@ type GainMethod = Literal["entropy"]
 type SplitMethod = Literal["orthogonal"]
 type NDArray = np.ndarray
 
-GAINMETHODS = ['entropy']
-SPLITMETHODS = ['orthogonal']
+GAINMETHODS = ['entropy', 'gini']
+SPLITMETHODS = ['orthogonal', 'PCA']
 
 class JojiTree:
     def __init__(
         self,
         maxDepth: int = 4,
-        gainMethod: GainMethod  = "entropy", # gini, ...
+        gainMethod: GainMethod  = "gini", # entropy, ...
         splitMethod: SplitMethod = "orthogonal" # random, PCA, SVM, ...
     ):
         if (not GAINMETHODS.__contains__(gainMethod)):
@@ -66,7 +66,7 @@ class JojiTree:
         return Node(w_star, th_star,
                     left_subtree, right_subtree)
 
-    def _informationGain(self, parent: NDArray, l_child: NDArray, r_child: NDArray) -> NDArray:
+    def _informationGain(self, parent: NDArray, l_child: NDArray, r_child: NDArray) -> float:
         match self.gainMethod:
             case "entropy":
 
@@ -79,15 +79,25 @@ class JojiTree:
                 return entParent - ((nu * entLChild )+ ((1-nu)*entRChild))
 
             case "gini":
-                return -1
+                giniParent = self._giniCalc(parent)
+                giniLChild = self._giniCalc(l_child)
+                giniRChild = self._giniCalc(r_child)
 
+                nu = len(l_child) / len(parent)
+
+                return giniParent - ((nu * giniLChild) + ((1-nu) * giniRChild))
 
         return -1
 
     def _entropyCalc(self, y: NDArray):
-        values, counts = np.unique(y, return_counts=True)
+        _, counts = np.unique(y, return_counts=True)
         p = counts / counts.sum()
         return entropy(p, base=2)
+
+    def _giniCalc(self, y: NDArray) -> float:
+        _, counts = np.unique(y, return_counts=True)
+        p = counts / counts.sum()
+        return 1 - np.sum(p ** 2)
 
     def _calculateLeafLabel(self, Y: NDArray) -> NDArray:
         values, counts = np.unique(Y, return_counts=True)
@@ -110,9 +120,30 @@ class JojiTree:
         return predictions
 
     def _makePrediction(self, x: NDArray, tree: Node):
-        match self.splitMethod:
-            case "orthogonal":
-                return self._makeOrthogonalPrediction(x, tree)
+        if (self.splitMethod == 'orthogonal'):
+            return self._makeOrthogonalPrediction(x, tree)
+        else:
+            return self._makeObliquePrediction(x, tree)
+
+    def _makeOrthogonalPrediction(self, x: NDArray, tree: Node):
+        if tree.label is not None: #Leaf
+            return tree.label
+
+        # para o caso ortogonal, w_star é o índice da feature_star
+        feature_val = x[tree.w_star]
+        if feature_val<=tree.th_star:
+            return self._makeOrthogonalPrediction(x, tree.left)
+        else:
+            return self._makeOrthogonalPrediction(x, tree.right)
+
+    def _makeObliquePrediction(self, x: NDArray, tree: Node):
+        if tree.label is not None: #Leaf
+            return tree.label
+
+        if (tree.w_star @ x) <= tree.th_star:
+            return self._makeObliquePrediction(x, tree.left)
+        else:
+            return self._makeObliquePrediction(x, tree.right)
 
     def _getBestSplit(self, X: np.ndarray, Y: np.ndarray):
         X_left, X_right, Y_left, Y_right, w_star, th_star = None, None, None, None, None, None
@@ -120,20 +151,14 @@ class JojiTree:
             case "orthogonal":
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getOrthogonalSplits(X, Y)
 
+            case "PCA":
+                X_left, X_right, Y_left, Y_right, w_star, th_star = self._getPCASplits(X, Y)
+
             case "SVM":
                 #...
                 return
         return X_left, X_right, Y_left, Y_right, w_star, th_star
 
-    def _makeOrthogonalPrediction(self, x: NDArray, tree: Node):
-        if tree.label is not None: #Leaf
-            return tree.label
-
-        feature_val = x[tree.w_star]
-        if feature_val<=tree.th_star:
-            return self._makeOrthogonalPrediction(x, tree.left)
-        else:
-            return self._makeOrthogonalPrediction(x, tree.right)
 
     def _getOrthogonalSplits(self, X: np.ndarray, Y: np.ndarray):
         X_left_best = None
@@ -179,6 +204,54 @@ class JojiTree:
                     # Busco ganho máximo
                     if curr_info_gain>max_info_gain:
                         w_star = feature_i # Plano na feature_i
+                        th_star = th
+                        max_info_gain = curr_info_gain
+                        X_left_best = Xi_left
+                        X_right_best = Xi_right
+                        Y_left_best = Yi_left
+                        Y_right_best = Yi_right
+
+        return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star
+
+    def _getPCASplits(self, X: np.ndarray, Y: np.ndarray):
+        X_left_best = None
+        X_right_best = None
+        Y_left_best = None
+        Y_right_best = None
+
+        w_star, th_star = None, -1
+        max_info_gain = -float("inf")
+
+        Xc = X - X.mean(axis=0)
+        _, _, Vt = np.linalg.svd(Xc, full_matrices=False)
+
+        # Pega os 15 primeiros componentes principais (ou menos se m < 15)
+        n_components = min(15, Vt.shape[0])
+        components = Vt[:n_components]  # (n_components, m)
+
+        for w in components:
+            # Projeta X no componente principal w
+            projections = X @ w  # (n,)
+
+            thresholds = np.unique(projections)
+
+            for th in thresholds:
+                Xi_left, Yi_left = [], []
+                Xi_right, Yi_right = [], []
+
+                for i in range(len(projections)):
+                    if projections[i] <= th:
+                        Xi_left.append(X[i])
+                        Yi_left.append(Y[i])
+                    else:
+                        Xi_right.append(X[i])
+                        Yi_right.append(Y[i])
+
+                if len(Xi_left) > 0 and len(Xi_right) > 0:
+                    curr_info_gain = self._informationGain(Y, Yi_left, Yi_right)
+
+                    if curr_info_gain > max_info_gain:
+                        w_star = w
                         th_star = th
                         max_info_gain = curr_info_gain
                         X_left_best = Xi_left

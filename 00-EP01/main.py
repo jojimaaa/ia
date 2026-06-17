@@ -8,20 +8,23 @@ def main():
 
     x_train, x_test, y_train, y_test = dh.splitData(X_train, Y_train)
 
-    # classifier = JojiTree(maxDepth=4)
+    classifier = JojiTree(maxDepth=2, gainMethod='gini', splitMethod='PCA')
+    # forest = JojiForest(2, 5)
 
-    forest = JojiForest(2, 5)
 
     # train
-    # classifier.fit(x_train, y_train)
-    forest.fit(x_train, y_train)
+    classifier.fit(x_train, y_train)
+    # forest.fit(x_train, y_train)
 
     # predict
-    # y_hat = classifier.predict(x_test)
+    y_hat = classifier.predict(x_test)
+    # y_hat = forest.predict(x_test)
 
-    accuracy, errorRate = dh.exportPredictions(y_test=y_test)
+    # results = dh.crossValidate(forest, X_train, Y_train, cv=5)
 
+    accuracy, errorRate = dh.accuracyAndError(y_hat, y_test)
     print(f"Accuracy: {accuracy}")
+
 
     return
 

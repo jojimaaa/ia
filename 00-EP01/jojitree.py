@@ -1,28 +1,37 @@
 from node import Node
 
 import numpy as np
-from typing import Literal
+from typing import Literal, TypedDict
 from scipy.stats import entropy
 
+class OrthogonalParams(TypedDict):
+    type: str = 'orthogonal'
+
+class PCAParams(TypedDict):
+    type: str = 'PCA'
+    c: int
+
+
+
 type GainMethod = Literal["entropy"]
-type SplitMethod = Literal["orthogonal"]
+type SplitMethod = OrthogonalParams | PCAParams
 type NDArray = np.ndarray
 
 GAINMETHODS = ['entropy', 'gini']
-SPLITMETHODS = ['orthogonal', 'PCA']
 
 class JojiTree:
     def __init__(
         self,
         maxDepth: int = 4,
-        gainMethod: GainMethod  = "gini", # entropy, ...
-        splitMethod: SplitMethod = "orthogonal" # random, PCA, SVM, ...
+        splitMethod: SplitMethod = OrthogonalParams(), # random, PCA, SVM, ...
+        gainMethod: GainMethod  = "gini", # entropy, ...,
+        verbose: bool = False
     ):
+        if splitMethod['type'] == 'PCA' and splitMethod['c'] <= 0:
+            raise ValueError("c must be a positive integer.")
+
         if (not GAINMETHODS.__contains__(gainMethod)):
             raise TypeError(f'Invalid Gain Method: {gainMethod}.')
-
-        if (not SPLITMETHODS.__contains__(splitMethod)):
-            raise TypeError(f'Invalid Split Method: {splitMethod}.')
 
         self.root = None
         self.maxDepth = maxDepth
@@ -30,10 +39,11 @@ class JojiTree:
         self.splitMethod = splitMethod
         self.featureIndexes = None
 
-        print(18*"=" + f" Created JojiTree " + 18*"=")
-        print(f'gainMethod: {self.gainMethod}')
-        print(f'splitMethod: {self.splitMethod}')
-        print(f'maxDepth: {self.maxDepth}')
+        if (verbose):
+            print(18*"=" + f" Created JojiTree " + 18*"=")
+            print(f'gainMethod: {self.gainMethod}')
+            print(f'splitMethod: {self.splitMethod}')
+            print(f'maxDepth: {self.maxDepth}')
 
     def _buildTree(self, X: NDArray, Y: NDArray, depth: int = 0) -> Node:
         # Critério de parada MaxDepth
@@ -49,7 +59,7 @@ class JojiTree:
         # Critério de parada #2: quando não achamos uma divisão da árvore
         # Chega-se quando qualquer threshold deixaria um lado vazio
         # ou quando nenhum split gera ganho
-        if (X_left == None or X_right == None or Y_left == None or Y_right == None):
+        if (X_left is None or X_right is None or Y_left is None or Y_right is None):
              return Node(label=self._calculateLeafLabel(Y))
 
         if len(X_left) == 0 or len(X_right) == 0:
@@ -104,8 +114,8 @@ class JojiTree:
         return values[np.argmax(counts)]
 
     def fit(self, X: NDArray, Y: NDArray, featureIndexes: NDArray | None = None):
-        if (featureIndexes == None):
-            self.featureIndexes = np.arange(len(Y))
+        if (featureIndexes is None):
+            self.featureIndexes = np.arange(X.shape[1])
         else:
             self.featureIndexes = featureIndexes
 
@@ -113,14 +123,15 @@ class JojiTree:
 
     def predict(self, X: np.ndarray) -> list:
         predictions = []
-        for x in X:
+
+        for x in X[:, self.featureIndexes]:
             y_hat  = self._makePrediction(x, self.root)
             predictions.append(y_hat)
 
         return predictions
 
     def _makePrediction(self, x: NDArray, tree: Node):
-        if (self.splitMethod == 'orthogonal'):
+        if (self.splitMethod['type'] == 'orthogonal'):
             return self._makeOrthogonalPrediction(x, tree)
         else:
             return self._makeObliquePrediction(x, tree)
@@ -147,7 +158,7 @@ class JojiTree:
 
     def _getBestSplit(self, X: np.ndarray, Y: np.ndarray):
         X_left, X_right, Y_left, Y_right, w_star, th_star = None, None, None, None, None, None
-        match self.splitMethod:
+        match self.splitMethod['type']:
             case "orthogonal":
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getOrthogonalSplits(X, Y)
 
@@ -226,7 +237,7 @@ class JojiTree:
         _, _, Vt = np.linalg.svd(Xc, full_matrices=False)
 
         # Pega os 15 primeiros componentes principais (ou menos se m < 15)
-        n_components = min(15, Vt.shape[0])
+        n_components = min(self.splitMethod['c'], Vt.shape[0])
         components = Vt[:n_components]  # (n_components, m)
 
         for w in components:

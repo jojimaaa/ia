@@ -1,12 +1,8 @@
-from typing import Literal
+from scipy import stats
 import numpy as np
+from jojitree import JojiTree, OrthogonalParams, GainMethod, SplitMethod, GAINMETHODS
 
-type GainMethod = Literal["entropy"]
-type SplitMethod = Literal["orthogonal"]
 type NDArray = np.ndarray
-
-GAINMETHODS = ['entropy']
-SPLITMETHODS = ['orthogonal']
 
 # Random Forest
 class JojiForest:
@@ -19,16 +15,13 @@ class JojiForest:
         treeCount: int = 5, # (K) number of distinct weak learners
         maxDepth: int = 4, # max depth of each weak learner
         gainMethod: GainMethod  = "entropy",
-        splitMethod: SplitMethod = "orthogonal",
+        splitMethod: SplitMethod = OrthogonalParams(),
     ):
-        if (not GAINMETHODS.__contains__(gainMethod)):
-            raise TypeError(f'Invalid Gain Method: {gainMethod}.')
-
-        if (not SPLITMETHODS.__contains__(splitMethod)):
-            raise TypeError(f'Invalid Split Method: {splitMethod}.')
-
         if (featuresPerTree <= 0):
             raise ValueError("featurePerTree must be a positive integer.")
+
+        if (not GAINMETHODS.__contains__(gainMethod)):
+            raise TypeError(f'Invalid Gain Method: {gainMethod}.')
 
         self.featuresPerTree = featuresPerTree
         self.samplesPerTree = samplesPerTree
@@ -37,7 +30,7 @@ class JojiForest:
         self.maxDepth = maxDepth
         self.gainMethod = gainMethod
         self.splitMethod = splitMethod
-
+        self.trees: list[JojiTree] = []
         return
 
     def _buildForest(self):
@@ -80,7 +73,28 @@ class JojiForest:
             # criar as árvores
             # cada árvore deve guardar quais (indexes) features está trabalhando
 
-            # tree = JojiTree(...)
-            # self.trees.append(tree.fit(X_sets[i], Y_sets[i], featureIndexes=subsamplingCols))
+            tree = JojiTree(
+                maxDepth=self.maxDepth,
+                splitMethod=self.splitMethod,
+                gainMethod=self.gainMethod
+            )
 
+            tree.fit(X_sets[i], Y_sets[i], featureIndexes=subsamplingCols)
+
+            self.trees.append(tree)
         return
+
+    def predict(self, X_test: NDArray):
+        predictions = np.zeros((self.treeCount, len(X_test)))
+        y_hat = np.zeros(len(X_test))
+
+        for i, tree in enumerate(self.trees):
+            # print(40*"=")
+            # print(f'predicting tree {i}')
+            result = tree.predict(X_test)
+            predictions[i] = result
+
+        y_hat = stats.mode(predictions, axis=0, keepdims=True)
+
+
+        return y_hat.mode.flatten()

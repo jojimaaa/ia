@@ -3,6 +3,8 @@ from node import Node
 import numpy as np
 from typing import Literal, TypedDict
 from scipy.stats import entropy
+from sklearn.svm import LinearSVC
+from itertools import combinations
 
 class OrthogonalParams(TypedDict):
     type: str = 'orthogonal'
@@ -11,10 +13,14 @@ class PCAParams(TypedDict):
     type: str = 'PCA'
     c: int
 
+class SVMParams(TypedDict):
+    type: str = 'SVM'
+    C: float  # regularização do LinearSVC
+
 
 
 type GainMethod = Literal["entropy"]
-type SplitMethod = OrthogonalParams | PCAParams
+type SplitMethod = OrthogonalParams | PCAParams | SVMParams
 type NDArray = np.ndarray
 
 GAINMETHODS = ['entropy', 'gini']
@@ -166,8 +172,8 @@ class JojiTree:
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getPCASplits(X, Y)
 
             case "SVM":
-                #...
-                return
+                X_left, X_right, Y_left, Y_right, w_star, th_star = self._getSVMSplits(X, Y)
+
         return X_left, X_right, Y_left, Y_right, w_star, th_star
 
 
@@ -269,5 +275,94 @@ class JojiTree:
                         X_right_best = Xi_right
                         Y_left_best = Yi_left
                         Y_right_best = Yi_right
+
+        return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star
+
+    def _bestThresholdForProjection(self, projections: NDArray, Y: NDArray):
+        """Dado z = X @ w, encontra o threshold que maximiza o ganho.
+
+        Vetorizado: ordena uma vez e varre apenas os pontos médios entre
+        valores consecutivos (candidatos ótimos), sem montar listas por amostra.
+        Retorna (best_th, best_gain) ou (None, -inf) se nenhum split válido.
+        """
+        order = np.argsort(projections, kind="mergesort")
+        z = projections[order]
+
+        # Candidatos: pontos médios onde z muda de valor (split válido com ambos os lados não-vazios)
+        change = np.where(z[1:] != z[:-1])[0]
+        if change.size == 0:
+            return None, -float("inf")
+
+        thresholds = (z[change] + z[change + 1]) / 2.0
+
+        best_th, best_gain = None, -float("inf")
+        for th in thresholds:
+            mask = projections <= th
+            gain = self._informationGain(Y, Y[mask], Y[~mask])
+            if gain > best_gain:
+                best_gain = gain
+                best_th = th
+
+        return best_th, best_gain
+
+    def _splitByProjection(self, X: NDArray, Y: NDArray, w: NDArray, th: float):
+        z = X @ w
+        mask = z <= th
+        return X[mask], X[~mask], Y[mask], Y[~mask]
+
+    def _getSVMSplits(self, X: NDArray, Y: NDArray):
+        """Hiperplano oblíquo supervisionado por nó.
+
+        Como a árvore é binária mas o problema tem >2 classes, em cada nó
+        testamos as possíveis partições binárias das classes presentes,
+        treinamos um LinearSVC para cada partição e escolhemos o (w, th)
+        de maior ganho de informação.
+        """
+        classes = np.unique(Y)
+        C = self.splitMethod.get('C', 1.0)
+
+        X_left_best = X_right_best = Y_left_best = Y_right_best = None
+        w_star, th_star = None, -1
+        max_info_gain = -float("inf")
+
+        # Partições binárias do conjunto de classes (metade, por simetria de A vs B)
+        partitions = []
+        k = len(classes)
+        for r in range(1, k // 2 + 1):
+            for group in combinations(classes, r):
+                # evita contar A|B e B|A duas vezes quando r == k/2
+                if r == k - r and classes[0] not in group:
+                    continue
+                partitions.append(set(group))
+
+        for group in partitions:
+            binary_y = np.array([0 if c in group else 1 for c in Y])
+
+            # SVM precisa de ambas as classes binárias presentes
+            if len(np.unique(binary_y)) < 2:
+                continue
+
+            svm = LinearSVC(C=C, dual='auto', max_iter=2000)
+            try:
+                svm.fit(X, binary_y)
+            except Exception:
+                continue
+
+            w = svm.coef_[0]  # (m,)
+            norm = np.linalg.norm(w)
+            if norm == 0:
+                continue
+            w = w / norm  # normaliza para o threshold ser comparável
+
+            projections = X @ w
+            th, gain = self._bestThresholdForProjection(projections, Y)
+            if th is None:
+                continue
+
+            if gain > max_info_gain:
+                max_info_gain = gain
+                w_star, th_star = w, th
+                X_left_best, X_right_best, Y_left_best, Y_right_best = \
+                    self._splitByProjection(X, Y, w, th)
 
         return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star

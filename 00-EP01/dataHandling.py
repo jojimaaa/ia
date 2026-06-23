@@ -19,13 +19,16 @@ def splitData(
     Y: np.ndarray,
     testSize: float = 0.25,
     randomState: int = 42,
-    shuffle: bool = False
+    shuffle: bool = True
 ):
+    # estratifica para preservar a proporção das 3 classes (desbalanceadas)
+    # no train e no test locais — só faz sentido com shuffle=True
     X_train, X_test, y_train, y_test = train_test_split(
         X, Y,
         test_size=testSize,
         random_state=randomState,
-        shuffle=shuffle
+        shuffle=shuffle,
+        stratify=Y if shuffle else None
     )
     return X_train, X_test, y_train, y_test
 

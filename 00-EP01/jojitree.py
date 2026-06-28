@@ -3,8 +3,12 @@ from node import Node
 import numpy as np
 from typing import Literal, TypedDict
 from scipy.stats import entropy
-from sklearn.svm import LinearSVC
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC, LinearSVC
+import warnings
+from sklearn.exceptions import ConvergenceWarning
 from itertools import combinations
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 class OrthogonalParams(TypedDict):
     type: str = 'orthogonal'
@@ -15,7 +19,8 @@ class PCAParams(TypedDict):
 
 class SVMParams(TypedDict):
     type: str = 'SVM'
-    C: float  # regularização do LinearSVC
+    C: float
+    kernel: str  # 'linear', 'rbf', 'poly', 'sigmoid'
 
 
 
@@ -60,27 +65,22 @@ class JojiTree:
         if len(np.unique(Y)) == 1:
             return Node(label=Y[0]) # O Leaf Label é aquela classe
 
-        X_left, X_right, Y_left, Y_right, w_star, th_star = self._getBestSplit(X, Y)
+        X_left, X_right, Y_left, Y_right, w_star, th_star, svm_model, scaler = self._getBestSplit(X, Y)
 
-        # Critério de parada #2: quando não achamos uma divisão da árvore
-        # Chega-se quando qualquer threshold deixaria um lado vazio
-        # ou quando nenhum split gera ganho
         if (X_left is None or X_right is None or Y_left is None or Y_right is None):
-             return Node(label=self._calculateLeafLabel(Y))
+            return Node(label=self._calculateLeafLabel(Y))
 
         if len(X_left) == 0 or len(X_right) == 0:
             return Node(label=self._calculateLeafLabel(Y))
 
-        Xi_left = np.array(X_left)
-        Yi_left = np.array(Y_left)
-        Xi_right = np.array(X_right)
-        Yi_right = np.array(Y_right)
+        Xi_left, Yi_left = np.array(X_left), np.array(Y_left)
+        Xi_right, Yi_right = np.array(X_right), np.array(Y_right)
 
         left_subtree = self._buildTree(Xi_left, Yi_left, depth=depth+1)
         right_subtree = self._buildTree(Xi_right, Yi_right, depth=depth+1)
 
-        return Node(w_star, th_star,
-                    left_subtree, right_subtree)
+        return Node(w_star, th_star, left_subtree, right_subtree,
+                    svm_model=svm_model, scaler=scaler)
 
     def _informationGain(self, parent: NDArray, l_child: NDArray, r_child: NDArray) -> float:
         match self.gainMethod:
@@ -119,19 +119,37 @@ class JojiTree:
         values, counts = np.unique(Y, return_counts=True)
         return values[np.argmax(counts)]
 
-    def fit(self, X: NDArray, Y: NDArray, featureIndexes: NDArray | None = None):
-        if (featureIndexes is None):
+    def fit(self, X: NDArray, Y: NDArray, featureIndexes: NDArray | None = None,
+            lda_components: int | None = None):
+        if featureIndexes is None:
             self.featureIndexes = np.arange(X.shape[1])
         else:
             self.featureIndexes = featureIndexes
 
-        self.root = self._buildTree(X, Y)
+        X_fit = X[:, self.featureIndexes]
+
+        # LDA global opcional
+        self.lda = None
+        if lda_components is not None:
+            n_classes = len(np.unique(Y))
+            # LDA suporta no máximo n_classes - 1 componentes
+            n_components = min(lda_components, n_classes - 1)
+            self.lda = LinearDiscriminantAnalysis(n_components=n_components)
+            X_fit = self.lda.fit_transform(X_fit, Y.ravel())
+
+        self.root = self._buildTree(X_fit, Y)
 
     def predict(self, X: np.ndarray) -> list:
         predictions = []
 
-        for x in X[:, self.featureIndexes]:
-            y_hat  = self._makePrediction(x, self.root)
+        X_pred = X[:, self.featureIndexes]
+
+        # aplica LDA se foi usado no treino
+        if self.lda is not None:
+            X_pred = self.lda.transform(X_pred)
+
+        for x in X_pred:
+            y_hat = self._makePrediction(x, self.root)
             predictions.append(y_hat)
 
         return predictions
@@ -154,27 +172,33 @@ class JojiTree:
             return self._makeOrthogonalPrediction(x, tree.right)
 
     def _makeObliquePrediction(self, x: NDArray, tree: Node):
-        if tree.label is not None: #Leaf
+        if tree.label is not None:
             return tree.label
 
-        if (tree.w_star @ x) <= tree.th_star:
+        if tree.svm_model is not None:
+            # SVM com kernel: usa decision_function
+            x_scaled = tree.scaler.transform(x.reshape(1, -1))
+            projection = tree.svm_model.decision_function(x_scaled)[0]
+        else:
+            # PCA ou SVM linear: produto interno direto
+            projection = tree.w_star @ x
+
+        if projection <= tree.th_star:
             return self._makeObliquePrediction(x, tree.left)
         else:
             return self._makeObliquePrediction(x, tree.right)
 
-    def _getBestSplit(self, X: np.ndarray, Y: np.ndarray):
-        X_left, X_right, Y_left, Y_right, w_star, th_star = None, None, None, None, None, None
+    def _getBestSplit(self, X, Y):
+        svm_model, scaler = None, None
         match self.splitMethod['type']:
             case "orthogonal":
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getOrthogonalSplits(X, Y)
-
             case "PCA":
                 X_left, X_right, Y_left, Y_right, w_star, th_star = self._getPCASplits(X, Y)
-
             case "SVM":
-                X_left, X_right, Y_left, Y_right, w_star, th_star = self._getSVMSplits(X, Y)
+                X_left, X_right, Y_left, Y_right, w_star, th_star, svm_model, scaler = self._getSVMSplits(X, Y)
 
-        return X_left, X_right, Y_left, Y_right, w_star, th_star
+        return X_left, X_right, Y_left, Y_right, w_star, th_star, svm_model, scaler
 
 
     def _getOrthogonalSplits(self, X: np.ndarray, Y: np.ndarray):
@@ -239,17 +263,17 @@ class JojiTree:
         w_star, th_star = None, -1
         max_info_gain = -float("inf")
 
-        Xc = X - X.mean(axis=0)
-        _, _, Vt = np.linalg.svd(Xc, full_matrices=False)
+        local_mean = X.mean(axis=0)
 
-        # Pega os 15 primeiros componentes principais (ou menos se m < 15)
+        Xc = X - local_mean
+        U, S, Vt = np.linalg.svd(Xc, full_matrices=False)
+
+        # Pega os 'c' primeiros componentes principais (ou menos se m < 'c')
         n_components = min(self.splitMethod['c'], Vt.shape[0])
-        components = Vt[:n_components]  # (n_components, m)
 
-        for w in components:
-            # Projeta X no componente principal w
-            projections = X @ w  # (n,)
+        X_proj = U[:, :n_components] * S[:n_components]
 
+        for index, projections in enumerate(X_proj.T):
             thresholds = np.unique(projections)
 
             for th in thresholds:
@@ -268,8 +292,11 @@ class JojiTree:
                     curr_info_gain = self._informationGain(Y, Yi_left, Yi_right)
 
                     if curr_info_gain > max_info_gain:
-                        w_star = w
-                        th_star = th
+
+
+                        th_star_adjusted = th + (local_mean @ Vt[index])
+                        w_star = Vt[index]
+                        th_star = th_star_adjusted
                         max_info_gain = curr_info_gain
                         X_left_best = Xi_left
                         X_right_best = Xi_right
@@ -311,26 +338,22 @@ class JojiTree:
         return X[mask], X[~mask], Y[mask], Y[~mask]
 
     def _getSVMSplits(self, X: NDArray, Y: NDArray):
-        """Hiperplano oblíquo supervisionado por nó.
-
-        Como a árvore é binária mas o problema tem >2 classes, em cada nó
-        testamos as possíveis partições binárias das classes presentes,
-        treinamos um LinearSVC para cada partição e escolhemos o (w, th)
-        de maior ganho de informação.
-        """
         classes = np.unique(Y)
         C = self.splitMethod.get('C', 1.0)
+        kernel = self.splitMethod.get('kernel', 'linear')
 
         X_left_best = X_right_best = Y_left_best = Y_right_best = None
         w_star, th_star = None, -1
+        svm_best, scaler_best = None, None
         max_info_gain = -float("inf")
 
-        # Partições binárias do conjunto de classes (metade, por simetria de A vs B)
+        scaler = StandardScaler()
+        X_scaled = scaler.fit_transform(X)
+
         partitions = []
         k = len(classes)
         for r in range(1, k // 2 + 1):
             for group in combinations(classes, r):
-                # evita contar A|B e B|A duas vezes quando r == k/2
                 if r == k - r and classes[0] not in group:
                     continue
                 partitions.append(set(group))
@@ -338,31 +361,47 @@ class JojiTree:
         for group in partitions:
             binary_y = np.array([0 if c in group else 1 for c in Y])
 
-            # SVM precisa de ambas as classes binárias presentes
             if len(np.unique(binary_y)) < 2:
                 continue
 
-            svm = LinearSVC(C=C, dual='auto', max_iter=2000)
             try:
-                svm.fit(X, binary_y)
+                if kernel == 'linear':
+                    svm = LinearSVC(C=C, dual='auto', max_iter=2000)
+                    with warnings.catch_warnings():
+                        warnings.filterwarnings('ignore', category=ConvergenceWarning)
+                        svm.fit(X_scaled, binary_y)
+                    projections = svm.decision_function(X_scaled)
+                else:
+                    svm = SVC(kernel=kernel, C=C, max_iter=-1)
+                    svm.fit(X_scaled, binary_y)
+                    projections = svm.decision_function(X_scaled)
             except Exception:
                 continue
 
-            w = svm.coef_[0]  # (m,)
-            norm = np.linalg.norm(w)
-            if norm == 0:
-                continue
-            w = w / norm  # normaliza para o threshold ser comparável
-
-            projections = X @ w
             th, gain = self._bestThresholdForProjection(projections, Y)
             if th is None:
                 continue
 
             if gain > max_info_gain:
                 max_info_gain = gain
-                w_star, th_star = w, th
-                X_left_best, X_right_best, Y_left_best, Y_right_best = \
-                    self._splitByProjection(X, Y, w, th)
+                th_star = th
 
-        return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star
+                mask = projections <= th
+                X_left_best = X[mask]
+                X_right_best = X[~mask]
+                Y_left_best = Y[mask]
+                Y_right_best = Y[~mask]
+
+                if kernel == 'linear':
+                    # LinearSVC: extrai w diretamente, não precisa guardar modelo
+                    w = svm.coef_[0] / scaler.scale_
+                    w_star = w / np.linalg.norm(w)
+                    svm_best = None
+                    scaler_best = None
+                else:
+                    # Kernel não-linear: guarda modelo e scaler para predição
+                    w_star = None
+                    svm_best = svm
+                    scaler_best = scaler
+
+        return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star, svm_best, scaler_best

@@ -48,7 +48,7 @@ class JojiTree:
         self.maxDepth = maxDepth
         self.gainMethod = gainMethod
         self.splitMethod = splitMethod
-        self.featureIndexes = None
+        self.originalFeatureIndexes = None
 
         if (verbose):
             print(18*"=" + f" Created JojiTree " + 18*"=")
@@ -119,36 +119,23 @@ class JojiTree:
         values, counts = np.unique(Y, return_counts=True)
         return values[np.argmax(counts)]
 
-    def fit(self, X: NDArray, Y: NDArray, featureIndexes: NDArray | None = None,
-            lda_components: int | None = None):
-        if featureIndexes is None:
-            self.featureIndexes = np.arange(X.shape[1])
-        else:
-            self.featureIndexes = featureIndexes
+    def fit(self, X: NDArray, Y: NDArray, lda_components: int | None = None):
 
-        X_fit = X[:, self.featureIndexes]
-
-        # LDA global opcional
         self.lda = None
         if lda_components is not None:
             n_classes = len(np.unique(Y))
-            # LDA suporta no máximo n_classes - 1 componentes
             n_components = min(lda_components, n_classes - 1)
             self.lda = LinearDiscriminantAnalysis(n_components=n_components)
-            X_fit = self.lda.fit_transform(X_fit, Y.ravel())
+            X = self.lda.fit_transform(X, Y.ravel())
 
-        self.root = self._buildTree(X_fit, Y)
+        self.root = self._buildTree(X, Y)
 
     def predict(self, X: np.ndarray) -> list:
-        predictions = []
-
-        X_pred = X[:, self.featureIndexes]
-
-        # aplica LDA se foi usado no treino
         if self.lda is not None:
-            X_pred = self.lda.transform(X_pred)
+            X = self.lda.transform(X)
 
-        for x in X_pred:
+        predictions = []
+        for x in X:
             y_hat = self._makePrediction(x, self.root)
             predictions.append(y_hat)
 

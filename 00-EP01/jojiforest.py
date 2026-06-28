@@ -46,7 +46,7 @@ class JojiForest:
         rng = np.random.default_rng()
         self.trees = []
 
-        for i in range(self.treeCount):
+        for _ in range(self.treeCount):
             baggingIndexes = rng.choice(n, size=self.samplesPerTree, replace=self.repeatedSampling)
             subsamplingCols = rng.choice(m, size=self.featuresPerTree, replace=False)
 
@@ -60,15 +60,15 @@ class JojiForest:
             )
 
             tree.fit(X_bag, Y_bag,
-                     featureIndexes=subsamplingCols,
-                     lda_components=self.lda_components)
+                    lda_components=self.lda_components)
 
+            tree.originalFeatureIndexes = subsamplingCols  # guarda índices originais
             self.trees.append(tree)
 
     def predict(self, X_test: NDArray):
         predictions = np.zeros((self.treeCount, len(X_test)))
 
         for i, tree in enumerate(self.trees):
-            predictions[i] = tree.predict(X_test)
+            predictions[i] = tree.predict(X_test[:, tree.originalFeatureIndexes])
 
         return stats.mode(predictions, axis=0, keepdims=True).mode.flatten()

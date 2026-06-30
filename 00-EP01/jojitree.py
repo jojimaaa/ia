@@ -24,7 +24,7 @@ class SVMParams(TypedDict):
 
 
 
-type GainMethod = Literal["entropy"]
+type GainMethod = Literal["entropy", "gini"]
 type SplitMethod = OrthogonalParams | PCAParams | SVMParams
 type NDArray = np.ndarray
 
@@ -188,107 +188,47 @@ class JojiTree:
         return X_left, X_right, Y_left, Y_right, w_star, th_star, svm_model, scaler
 
 
-    def _getOrthogonalSplits(self, X: np.ndarray, Y: np.ndarray):
-        X_left_best = None
-        X_right_best = None
-        Y_left_best = None
-        Y_right_best = None
-
+    def _getOrthogonalSplits(self, X, Y):
         w_star, th_star = -1, -1
         max_info_gain = -float("inf")
+        X_left_best = X_right_best = Y_left_best = Y_right_best = None
 
-        # Número de colunas (features) de X
-        # equivalente a
-        # _, m = X.shape
-        m = X.shape[-1]
+        for feature_i in range(X.shape[-1]):
+            feature_values = X[:, feature_i]
+            th, gain = self._bestThresholdForProjection(feature_values, Y)  # reusa a função vetorizada
 
-        for feature_i in range(m):
-            feature_values = X[:, feature_i] # extrai a (feature-i + 1)-ésima coluna de X
-
-            # Em vez de pegar o eixo feature_i e sair varrendo com incrementos pequenos,
-            # podemos apenas pegar todos os valores únicos do eixo pois os valores
-            # intermediários entre 2 consecutivos seriam cálculos repetidos ou sub-optimos
-            thresholds = np.unique(feature_values)
-
-            for th in thresholds:
-                Xi_left, Yi_left = [], []
-                Xi_right, Yi_right = [], []
-
-                # Varrendo todos os elementos da coluna feature_i
-                for i in range(len(feature_values)):
-
-                    # Quem for menor ou igual ao th vai para a esquerda
-                    if feature_values[i] <= th:
-                        Xi_left.append(X[i])
-                        Yi_left.append(Y[i])
-                    # Caso contrário, vai para a direita
-                    else:
-                        Xi_right.append(X[i])
-                        Yi_right.append(Y[i])
-
-                if len(Xi_left)>0 and len(Xi_right)>0:
-                    curr_info_gain = self._informationGain(Y, Yi_left, Yi_right)
-
-                    # Busco ganho máximo
-                    if curr_info_gain>max_info_gain:
-                        w_star = feature_i # Plano na feature_i
-                        th_star = th
-                        max_info_gain = curr_info_gain
-                        X_left_best = Xi_left
-                        X_right_best = Xi_right
-                        Y_left_best = Yi_left
-                        Y_right_best = Yi_right
+            if th is not None and gain > max_info_gain:
+                max_info_gain = gain
+                w_star, th_star = feature_i, th
+                mask = feature_values <= th
+                X_left_best, X_right_best = X[mask], X[~mask]
+                Y_left_best, Y_right_best = Y[mask], Y[~mask]
 
         return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star
 
     def _getPCASplits(self, X: np.ndarray, Y: np.ndarray):
-        X_left_best = None
-        X_right_best = None
-        Y_left_best = None
-        Y_right_best = None
-
         w_star, th_star = None, -1
         max_info_gain = -float("inf")
+        X_left_best = X_right_best = Y_left_best = Y_right_best = None
 
         local_mean = X.mean(axis=0)
-
         Xc = X - local_mean
         U, S, Vt = np.linalg.svd(Xc, full_matrices=False)
 
-        # Pega os 'c' primeiros componentes principais (ou menos se m < 'c')
         n_components = min(self.splitMethod['c'], Vt.shape[0])
-
         X_proj = U[:, :n_components] * S[:n_components]
 
         for index, projections in enumerate(X_proj.T):
-            thresholds = np.unique(projections)
+            th, gain = self._bestThresholdForProjection(projections, Y)
 
-            for th in thresholds:
-                Xi_left, Yi_left = [], []
-                Xi_right, Yi_right = [], []
+            if th is not None and gain > max_info_gain:
+                max_info_gain = gain
+                w_star = Vt[index]
+                th_star = th + (local_mean @ Vt[index])  # ajusta para o espaço não-centralizado
 
-                for i in range(len(projections)):
-                    if projections[i] <= th:
-                        Xi_left.append(X[i])
-                        Yi_left.append(Y[i])
-                    else:
-                        Xi_right.append(X[i])
-                        Yi_right.append(Y[i])
-
-                if len(Xi_left) > 0 and len(Xi_right) > 0:
-                    curr_info_gain = self._informationGain(Y, Yi_left, Yi_right)
-
-                    if curr_info_gain > max_info_gain:
-
-
-                        th_star_adjusted = th + (local_mean @ Vt[index])
-                        w_star = Vt[index]
-                        th_star = th_star_adjusted
-                        max_info_gain = curr_info_gain
-                        X_left_best = Xi_left
-                        X_right_best = Xi_right
-                        Y_left_best = Yi_left
-                        Y_right_best = Yi_right
+                mask = projections <= th
+                X_left_best, X_right_best = X[mask], X[~mask]
+                Y_left_best, Y_right_best = Y[mask], Y[~mask]
 
         return X_left_best, X_right_best, Y_left_best, Y_right_best, w_star, th_star
 

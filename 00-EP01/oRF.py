@@ -40,13 +40,13 @@ SPLIT_METHOD = {'type': 'orthogonal'}                               # baseline o
 GAIN_METHOD = 'gini'          # 'gini' | 'entropy'
 
 # ---- CRITÉRIO DE PARADA DA ÁRVORE -------------------------------------------
-MAX_DEPTH = 4                 # profundidade máxima de cada árvore
+MAX_DEPTH = 8                 # profundidade máxima de cada árvore (melhor no desempate)
 
 # ---- LDA OPCIONAL (projeção supervisionada antes do split) ------------------
 LDA_COMPONENTS = None         # None (desliga) | 1 | 2 ... (máx = nº de classes - 1)
 
 # ---- PARÂMETROS DA FLORESTA (oRF) -------------------------------------------
-TREE_COUNT = 20               # nº de árvores
+TREE_COUNT = 100              # nº de árvores (mais árvores = predição mais estável)
 FEATURES_PER_TREE = 20        # nº de features sorteadas por árvore (subespaço aleatório)
 SAMPLES_FRACTION = 0.8        # fração do treino usada por árvore (bagging)
 REPEATED_SAMPLING = True      # amostragem com reposição (bootstrap)
@@ -464,9 +464,14 @@ class JojiTree:
                 Y_right_best = Y[~mask]
 
                 if kernel == 'linear':
-                    # LinearSVC: extrai w diretamente, não precisa guardar modelo
+                    # LinearSVC treinou em X escalado, e 'th' foi escolhido contra
+                    # decision_function(x_scaled) = w·x - w·média + intercept.
+                    # Para o predict (w_star @ x_cru <= th_star) reproduzir a MESMA
+                    # partição, dobramos a média do scaler e o intercept no threshold
+                    # e NÃO normalizamos w_star (normalizar muda a escala do th).
                     w = svm.coef_[0] / scaler.scale_
-                    w_star = w / np.linalg.norm(w)
+                    w_star = w
+                    th_star = th + w @ scaler.mean_ - svm.intercept_[0]
                     svm_best = None
                     scaler_best = None
                 else:

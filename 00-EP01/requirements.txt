@@ -35,3 +35,9 @@ tornado==6.5.7
 traitlets==5.15.1
 typing_extensions==4.15.0
 wcwidth==0.8.2
+optuna==4.9.0
+alembic==1.18.5
+colorlog==6.10.1
+Mako==1.3.12
+PyYAML==6.0.3
+tqdm==4.68.3

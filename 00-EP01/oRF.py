@@ -26,29 +26,28 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC, LinearSVC
 
-
 # =============================================================================
 # CONFIGURAÇÃO
 # =============================================================================
 
 # ---- MÉTODO DE SPLIT (escolha UM; deixe só uma linha sem comentário) --------
-SPLIT_METHOD = {'type': 'orthogonal'}                               # baseline ortogonal (eixo-a-eixo)
+# SPLIT_METHOD = {'type': 'orthogonal'}                               # baseline ortogonal (eixo-a-eixo)
 # SPLIT_METHOD = {'type': 'PCA', 'c': 5}                            # 'c' = nº de componentes principais testados por nó
-# SPLIT_METHOD = {'type': 'SVM', 'C': 1.0, 'kernel': 'linear'}      # kernel: 'linear' | 'rbf' | 'poly' | 'sigmoid'
+SPLIT_METHOD = {'type': 'SVM', 'C': 0.0402, 'kernel': 'linear'}      # kernel: 'linear' | 'rbf' | 'poly' | 'sigmoid'
 
 # ---- MEDIDA DE IMPUREZA -----------------------------------------------------
-GAIN_METHOD = 'gini'          # 'gini' | 'entropy'
+GAIN_METHOD = 'entropy'          # 'gini' | 'entropy'
 
 # ---- CRITÉRIO DE PARADA DA ÁRVORE -------------------------------------------
-MAX_DEPTH = 8                 # profundidade máxima de cada árvore (melhor no desempate)
+MAX_DEPTH = 9                 # profundidade máxima de cada árvore (melhor no desempate)
 
 # ---- LDA OPCIONAL (projeção supervisionada antes do split) ------------------
 LDA_COMPONENTS = None         # None (desliga) | 1 | 2 ... (máx = nº de classes - 1)
 
 # ---- PARÂMETROS DA FLORESTA (oRF) -------------------------------------------
-TREE_COUNT = 100              # nº de árvores (mais árvores = predição mais estável)
-FEATURES_PER_TREE = 20        # nº de features sorteadas por árvore (subespaço aleatório)
-SAMPLES_FRACTION = 0.8        # fração do treino usada por árvore (bagging)
+TREE_COUNT = 162              # nº de árvores (mais árvores = predição mais estável)
+FEATURES_PER_TREE = 23        # nº de features sorteadas por árvore (subespaço aleatório)
+SAMPLES_FRACTION = 0.71        # fração do treino usada por árvore (bagging)
 REPEATED_SAMPLING = True      # amostragem com reposição (bootstrap)
 N_JOBS = -1                   # núcleos no treino/predição (-1 = todos)
 

@@ -1,0 +1,1000 @@
+{"index": 0, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 1, "question": "How many xor gates are in this logic circuit?"}
+{"index": 2, "question": "How many and gates are in this logic circuit?"}
+{"index": 3, "question": "How many not gates are in this logic circuit?"}
+{"index": 4, "question": "How many not gates are in this logic circuit?"}
+{"index": 5, "question": "How many and gates are in this logic circuit?"}
+{"index": 6, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 7, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 8, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 9, "question": "How many and gates are in this logic circuit?"}
+{"index": 10, "question": "How many not gates are in this logic circuit?"}
+{"index": 11, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 12, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 13, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 14, "question": "How many not gates are in this logic circuit?"}
+{"index": 15, "question": "How many not gates are in this logic circuit?"}
+{"index": 16, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 17, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 18, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 19, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 20, "question": "How many xor gates are in this logic circuit?"}
+{"index": 21, "question": "How many nor gates are in this logic circuit?"}
+{"index": 22, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 23, "question": "How many or gates are in this logic circuit?"}
+{"index": 24, "question": "How many xor gates are in this logic circuit?"}
+{"index": 25, "question": "How many not gates are in this logic circuit?"}
+{"index": 26, "question": "How many xor gates are in this logic circuit?"}
+{"index": 27, "question": "How many xor gates are in this logic circuit?"}
+{"index": 28, "question": "How many nand gates are in this logic circuit?"}
+{"index": 29, "question": "How many or gates are in this logic circuit?"}
+{"index": 30, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 31, "question": "How many not gates are in this logic circuit?"}
+{"index": 32, "question": "How many nand gates are in this logic circuit?"}
+{"index": 33, "question": "How many xor gates are in this logic circuit?"}
+{"index": 34, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 35, "question": "How many xor gates are in this logic circuit?"}
+{"index": 36, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 37, "question": "How many nand gates are in this logic circuit?"}
+{"index": 38, "question": "How many and gates are in this logic circuit?"}
+{"index": 39, "question": "How many and gates are in this logic circuit?"}
+{"index": 40, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 41, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 42, "question": "How many nand gates are in this logic circuit?"}
+{"index": 43, "question": "How many nor gates are in this logic circuit?"}
+{"index": 44, "question": "How many not gates are in this logic circuit?"}
+{"index": 45, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 46, "question": "How many and gates are in this logic circuit?"}
+{"index": 47, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 48, "question": "How many or gates are in this logic circuit?"}
+{"index": 49, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 50, "question": "How many nor gates are in this logic circuit?"}
+{"index": 51, "question": "How many nand gates are in this logic circuit?"}
+{"index": 52, "question": "How many or gates are in this logic circuit?"}
+{"index": 53, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 54, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 55, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 56, "question": "How many xor gates are in this logic circuit?"}
+{"index": 57, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 58, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 59, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 60, "question": "How many nor gates are in this logic circuit?"}
+{"index": 61, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 62, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 63, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 64, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 65, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 66, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 67, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 68, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 69, "question": "How many not gates are in this logic circuit?"}
+{"index": 70, "question": "How many not gates are in this logic circuit?"}
+{"index": 71, "question": "How many and gates are in this logic circuit?"}
+{"index": 72, "question": "How many not gates are in this logic circuit?"}
+{"index": 73, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 74, "question": "How many not gates are in this logic circuit?"}
+{"index": 75, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 76, "question": "How many xor gates are in this logic circuit?"}
+{"index": 77, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 78, "question": "How many not gates are in this logic circuit?"}
+{"index": 79, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 80, "question": "How many xor gates are in this logic circuit?"}
+{"index": 81, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 82, "question": "How many xor gates are in this logic circuit?"}
+{"index": 83, "question": "How many xor gates are in this logic circuit?"}
+{"index": 84, "question": "How many or gates are in this logic circuit?"}
+{"index": 85, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 86, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 87, "question": "How many nand gates are in this logic circuit?"}
+{"index": 88, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 89, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 90, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 91, "question": "How many nand gates are in this logic circuit?"}
+{"index": 92, "question": "How many and gates are in this logic circuit?"}
+{"index": 93, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 94, "question": "How many not gates are in this logic circuit?"}
+{"index": 95, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 96, "question": "How many nor gates are in this logic circuit?"}
+{"index": 97, "question": "How many nand gates are in this logic circuit?"}
+{"index": 98, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 99, "question": "How many or gates are in this logic circuit?"}
+{"index": 100, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 101, "question": "How many nand gates are in this logic circuit?"}
+{"index": 102, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 103, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 104, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 105, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 106, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 107, "question": "How many and gates are in this logic circuit?"}
+{"index": 108, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 109, "question": "How many nor gates are in this logic circuit?"}
+{"index": 110, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 111, "question": "How many nand gates are in this logic circuit?"}
+{"index": 112, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 113, "question": "How many and gates are in this logic circuit?"}
+{"index": 114, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 115, "question": "How many nor gates are in this logic circuit?"}
+{"index": 116, "question": "How many xor gates are in this logic circuit?"}
+{"index": 117, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 118, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 119, "question": "How many and gates are in this logic circuit?"}
+{"index": 120, "question": "How many nand gates are in this logic circuit?"}
+{"index": 121, "question": "How many nand gates are in this logic circuit?"}
+{"index": 122, "question": "How many and gates are in this logic circuit?"}
+{"index": 123, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 124, "question": "How many and gates are in this logic circuit?"}
+{"index": 125, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 126, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 127, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 128, "question": "How many xor gates are in this logic circuit?"}
+{"index": 129, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 130, "question": "How many not gates are in this logic circuit?"}
+{"index": 131, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 132, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 133, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 134, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 135, "question": "How many and gates are in this logic circuit?"}
+{"index": 136, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 137, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 138, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 139, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 140, "question": "How many nor gates are in this logic circuit?"}
+{"index": 141, "question": "How many and gates are in this logic circuit?"}
+{"index": 142, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 143, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 144, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 145, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 146, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 147, "question": "How many or gates are in this logic circuit?"}
+{"index": 148, "question": "How many nor gates are in this logic circuit?"}
+{"index": 149, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 150, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 151, "question": "How many not gates are in this logic circuit?"}
+{"index": 152, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 153, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 154, "question": "How many not gates are in this logic circuit?"}
+{"index": 155, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 156, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 157, "question": "How many not gates are in this logic circuit?"}
+{"index": 158, "question": "How many nor gates are in this logic circuit?"}
+{"index": 159, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 160, "question": "How many and gates are in this logic circuit?"}
+{"index": 161, "question": "How many or gates are in this logic circuit?"}
+{"index": 162, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 163, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 164, "question": "How many not gates are in this logic circuit?"}
+{"index": 165, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 166, "question": "How many and gates are in this logic circuit?"}
+{"index": 167, "question": "How many and gates are in this logic circuit?"}
+{"index": 168, "question": "How many not gates are in this logic circuit?"}
+{"index": 169, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 170, "question": "How many not gates are in this logic circuit?"}
+{"index": 171, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 172, "question": "How many nor gates are in this logic circuit?"}
+{"index": 173, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 174, "question": "How many or gates are in this logic circuit?"}
+{"index": 175, "question": "How many nor gates are in this logic circuit?"}
+{"index": 176, "question": "How many xor gates are in this logic circuit?"}
+{"index": 177, "question": "How many and gates are in this logic circuit?"}
+{"index": 178, "question": "How many and gates are in this logic circuit?"}
+{"index": 179, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 180, "question": "How many not gates are in this logic circuit?"}
+{"index": 181, "question": "How many not gates are in this logic circuit?"}
+{"index": 182, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 183, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 184, "question": "How many not gates are in this logic circuit?"}
+{"index": 185, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 186, "question": "How many and gates are in this logic circuit?"}
+{"index": 187, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 188, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 189, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 190, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 191, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 192, "question": "How many nand gates are in this logic circuit?"}
+{"index": 193, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 194, "question": "How many nor gates are in this logic circuit?"}
+{"index": 195, "question": "How many or gates are in this logic circuit?"}
+{"index": 196, "question": "How many nand gates are in this logic circuit?"}
+{"index": 197, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 198, "question": "How many xor gates are in this logic circuit?"}
+{"index": 199, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 200, "question": "How many nor gates are in this logic circuit?"}
+{"index": 201, "question": "How many or gates are in this logic circuit?"}
+{"index": 202, "question": "How many not gates are in this logic circuit?"}
+{"index": 203, "question": "How many not gates are in this logic circuit?"}
+{"index": 204, "question": "How many and gates are in this logic circuit?"}
+{"index": 205, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 206, "question": "How many not gates are in this logic circuit?"}
+{"index": 207, "question": "How many nand gates are in this logic circuit?"}
+{"index": 208, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 209, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 210, "question": "How many nand gates are in this logic circuit?"}
+{"index": 211, "question": "How many xor gates are in this logic circuit?"}
+{"index": 212, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 213, "question": "How many and gates are in this logic circuit?"}
+{"index": 214, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 215, "question": "How many nand gates are in this logic circuit?"}
+{"index": 216, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 217, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 218, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 219, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 220, "question": "How many or gates are in this logic circuit?"}
+{"index": 221, "question": "How many and gates are in this logic circuit?"}
+{"index": 222, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 223, "question": "How many not gates are in this logic circuit?"}
+{"index": 224, "question": "How many nor gates are in this logic circuit?"}
+{"index": 225, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 226, "question": "How many and gates are in this logic circuit?"}
+{"index": 227, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 228, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 229, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 230, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 231, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 232, "question": "How many xor gates are in this logic circuit?"}
+{"index": 233, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 234, "question": "How many xor gates are in this logic circuit?"}
+{"index": 235, "question": "How many nand gates are in this logic circuit?"}
+{"index": 236, "question": "How many nor gates are in this logic circuit?"}
+{"index": 237, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 238, "question": "How many and gates are in this logic circuit?"}
+{"index": 239, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 240, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 241, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 242, "question": "How many nand gates are in this logic circuit?"}
+{"index": 243, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 244, "question": "How many nor gates are in this logic circuit?"}
+{"index": 245, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 246, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 247, "question": "How many or gates are in this logic circuit?"}
+{"index": 248, "question": "How many nor gates are in this logic circuit?"}
+{"index": 249, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 250, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 251, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 252, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 253, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 254, "question": "How many or gates are in this logic circuit?"}
+{"index": 255, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 256, "question": "How many nor gates are in this logic circuit?"}
+{"index": 257, "question": "How many nor gates are in this logic circuit?"}
+{"index": 258, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 259, "question": "How many nand gates are in this logic circuit?"}
+{"index": 260, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 261, "question": "How many nor gates are in this logic circuit?"}
+{"index": 262, "question": "How many xor gates are in this logic circuit?"}
+{"index": 263, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 264, "question": "How many or gates are in this logic circuit?"}
+{"index": 265, "question": "How many and gates are in this logic circuit?"}
+{"index": 266, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 267, "question": "How many not gates are in this logic circuit?"}
+{"index": 268, "question": "How many xor gates are in this logic circuit?"}
+{"index": 269, "question": "How many and gates are in this logic circuit?"}
+{"index": 270, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 271, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 272, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 273, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 274, "question": "How many and gates are in this logic circuit?"}
+{"index": 275, "question": "How many xor gates are in this logic circuit?"}
+{"index": 276, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 277, "question": "How many and gates are in this logic circuit?"}
+{"index": 278, "question": "How many or gates are in this logic circuit?"}
+{"index": 279, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 280, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 281, "question": "How many nand gates are in this logic circuit?"}
+{"index": 282, "question": "How many xor gates are in this logic circuit?"}
+{"index": 283, "question": "How many and gates are in this logic circuit?"}
+{"index": 284, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 285, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 286, "question": "How many nor gates are in this logic circuit?"}
+{"index": 287, "question": "How many xor gates are in this logic circuit?"}
+{"index": 288, "question": "How many nand gates are in this logic circuit?"}
+{"index": 289, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 290, "question": "How many nor gates are in this logic circuit?"}
+{"index": 291, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 292, "question": "How many nand gates are in this logic circuit?"}
+{"index": 293, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 294, "question": "How many or gates are in this logic circuit?"}
+{"index": 295, "question": "How many or gates are in this logic circuit?"}
+{"index": 296, "question": "How many xor gates are in this logic circuit?"}
+{"index": 297, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 298, "question": "How many nor gates are in this logic circuit?"}
+{"index": 299, "question": "How many not gates are in this logic circuit?"}
+{"index": 300, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 301, "question": "How many and gates are in this logic circuit?"}
+{"index": 302, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 303, "question": "How many xor gates are in this logic circuit?"}
+{"index": 304, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 305, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 306, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 307, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 308, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 309, "question": "How many not gates are in this logic circuit?"}
+{"index": 310, "question": "How many xor gates are in this logic circuit?"}
+{"index": 311, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 312, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 313, "question": "How many or gates are in this logic circuit?"}
+{"index": 314, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 315, "question": "How many nor gates are in this logic circuit?"}
+{"index": 316, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 317, "question": "How many or gates are in this logic circuit?"}
+{"index": 318, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 319, "question": "How many and gates are in this logic circuit?"}
+{"index": 320, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 321, "question": "How many and gates are in this logic circuit?"}
+{"index": 322, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 323, "question": "How many or gates are in this logic circuit?"}
+{"index": 324, "question": "How many xor gates are in this logic circuit?"}
+{"index": 325, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 326, "question": "How many and gates are in this logic circuit?"}
+{"index": 327, "question": "How many xor gates are in this logic circuit?"}
+{"index": 328, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 329, "question": "How many xor gates are in this logic circuit?"}
+{"index": 330, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 331, "question": "How many not gates are in this logic circuit?"}
+{"index": 332, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 333, "question": "How many and gates are in this logic circuit?"}
+{"index": 334, "question": "How many xor gates are in this logic circuit?"}
+{"index": 335, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 336, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 337, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 338, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 339, "question": "How many or gates are in this logic circuit?"}
+{"index": 340, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 341, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 342, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 343, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 344, "question": "How many not gates are in this logic circuit?"}
+{"index": 345, "question": "How many nor gates are in this logic circuit?"}
+{"index": 346, "question": "How many nor gates are in this logic circuit?"}
+{"index": 347, "question": "How many nor gates are in this logic circuit?"}
+{"index": 348, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 349, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 350, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 351, "question": "How many xor gates are in this logic circuit?"}
+{"index": 352, "question": "How many and gates are in this logic circuit?"}
+{"index": 353, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 354, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 355, "question": "How many nor gates are in this logic circuit?"}
+{"index": 356, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 357, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 358, "question": "How many or gates are in this logic circuit?"}
+{"index": 359, "question": "How many nand gates are in this logic circuit?"}
+{"index": 360, "question": "How many and gates are in this logic circuit?"}
+{"index": 361, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 362, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 363, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 364, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 365, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 366, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 367, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 368, "question": "How many nor gates are in this logic circuit?"}
+{"index": 369, "question": "How many not gates are in this logic circuit?"}
+{"index": 370, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 371, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 372, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 373, "question": "How many nand gates are in this logic circuit?"}
+{"index": 374, "question": "How many not gates are in this logic circuit?"}
+{"index": 375, "question": "How many nand gates are in this logic circuit?"}
+{"index": 376, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 377, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 378, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 379, "question": "How many xor gates are in this logic circuit?"}
+{"index": 380, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 381, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 382, "question": "How many nor gates are in this logic circuit?"}
+{"index": 383, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 384, "question": "How many and gates are in this logic circuit?"}
+{"index": 385, "question": "How many or gates are in this logic circuit?"}
+{"index": 386, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 387, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 388, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 389, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 390, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 391, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 392, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 393, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 394, "question": "How many or gates are in this logic circuit?"}
+{"index": 395, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 396, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 397, "question": "How many and gates are in this logic circuit?"}
+{"index": 398, "question": "How many nor gates are in this logic circuit?"}
+{"index": 399, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 400, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 401, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 402, "question": "How many nor gates are in this logic circuit?"}
+{"index": 403, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 404, "question": "How many not gates are in this logic circuit?"}
+{"index": 405, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 406, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 407, "question": "How many nand gates are in this logic circuit?"}
+{"index": 408, "question": "How many xor gates are in this logic circuit?"}
+{"index": 409, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 410, "question": "How many or gates are in this logic circuit?"}
+{"index": 411, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 412, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 413, "question": "How many nor gates are in this logic circuit?"}
+{"index": 414, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 415, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 416, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 417, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 418, "question": "How many nand gates are in this logic circuit?"}
+{"index": 419, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 420, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 421, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 422, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 423, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 424, "question": "How many nor gates are in this logic circuit?"}
+{"index": 425, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 426, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 427, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 428, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 429, "question": "How many nand gates are in this logic circuit?"}
+{"index": 430, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 431, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 432, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 433, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 434, "question": "How many xor gates are in this logic circuit?"}
+{"index": 435, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 436, "question": "How many nor gates are in this logic circuit?"}
+{"index": 437, "question": "How many xor gates are in this logic circuit?"}
+{"index": 438, "question": "How many xor gates are in this logic circuit?"}
+{"index": 439, "question": "How many nand gates are in this logic circuit?"}
+{"index": 440, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 441, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 442, "question": "How many not gates are in this logic circuit?"}
+{"index": 443, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 444, "question": "How many and gates are in this logic circuit?"}
+{"index": 445, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 446, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 447, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 448, "question": "How many xor gates are in this logic circuit?"}
+{"index": 449, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 450, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 451, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 452, "question": "How many nand gates are in this logic circuit?"}
+{"index": 453, "question": "How many nor gates are in this logic circuit?"}
+{"index": 454, "question": "How many not gates are in this logic circuit?"}
+{"index": 455, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 456, "question": "How many xor gates are in this logic circuit?"}
+{"index": 457, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 458, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 459, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 460, "question": "How many not gates are in this logic circuit?"}
+{"index": 461, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 462, "question": "How many xor gates are in this logic circuit?"}
+{"index": 463, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 464, "question": "How many xor gates are in this logic circuit?"}
+{"index": 465, "question": "How many xor gates are in this logic circuit?"}
+{"index": 466, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 467, "question": "How many not gates are in this logic circuit?"}
+{"index": 468, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 469, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 470, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 471, "question": "How many not gates are in this logic circuit?"}
+{"index": 472, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 473, "question": "How many nor gates are in this logic circuit?"}
+{"index": 474, "question": "How many nor gates are in this logic circuit?"}
+{"index": 475, "question": "How many nand gates are in this logic circuit?"}
+{"index": 476, "question": "How many or gates are in this logic circuit?"}
+{"index": 477, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 478, "question": "How many nand gates are in this logic circuit?"}
+{"index": 479, "question": "How many nor gates are in this logic circuit?"}
+{"index": 480, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 481, "question": "How many or gates are in this logic circuit?"}
+{"index": 482, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 483, "question": "How many nand gates are in this logic circuit?"}
+{"index": 484, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 485, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 486, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 487, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 488, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 489, "question": "How many and gates are in this logic circuit?"}
+{"index": 490, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 491, "question": "How many xor gates are in this logic circuit?"}
+{"index": 492, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 493, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 494, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 495, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 496, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 497, "question": "How many or gates are in this logic circuit?"}
+{"index": 498, "question": "How many nor gates are in this logic circuit?"}
+{"index": 499, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 500, "question": "How many nand gates are in this logic circuit?"}
+{"index": 501, "question": "How many and gates are in this logic circuit?"}
+{"index": 502, "question": "How many xor gates are in this logic circuit?"}
+{"index": 503, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 504, "question": "How many nand gates are in this logic circuit?"}
+{"index": 505, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 506, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 507, "question": "How many xor gates are in this logic circuit?"}
+{"index": 508, "question": "How many or gates are in this logic circuit?"}
+{"index": 509, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 510, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 511, "question": "How many not gates are in this logic circuit?"}
+{"index": 512, "question": "How many nor gates are in this logic circuit?"}
+{"index": 513, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 514, "question": "How many xor gates are in this logic circuit?"}
+{"index": 515, "question": "How many or gates are in this logic circuit?"}
+{"index": 516, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 517, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 518, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 519, "question": "How many or gates are in this logic circuit?"}
+{"index": 520, "question": "How many xor gates are in this logic circuit?"}
+{"index": 521, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 522, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 523, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 524, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 525, "question": "How many not gates are in this logic circuit?"}
+{"index": 526, "question": "How many nor gates are in this logic circuit?"}
+{"index": 527, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 528, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 529, "question": "How many or gates are in this logic circuit?"}
+{"index": 530, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 531, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 532, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 533, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 534, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 535, "question": "How many nor gates are in this logic circuit?"}
+{"index": 536, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 537, "question": "How many or gates are in this logic circuit?"}
+{"index": 538, "question": "How many not gates are in this logic circuit?"}
+{"index": 539, "question": "How many xor gates are in this logic circuit?"}
+{"index": 540, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 541, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 542, "question": "How many nor gates are in this logic circuit?"}
+{"index": 543, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 544, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 545, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 546, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 547, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 548, "question": "How many and gates are in this logic circuit?"}
+{"index": 549, "question": "How many and gates are in this logic circuit?"}
+{"index": 550, "question": "How many and gates are in this logic circuit?"}
+{"index": 551, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 552, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 553, "question": "How many not gates are in this logic circuit?"}
+{"index": 554, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 555, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 556, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 557, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 558, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 559, "question": "How many nand gates are in this logic circuit?"}
+{"index": 560, "question": "How many not gates are in this logic circuit?"}
+{"index": 561, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 562, "question": "How many not gates are in this logic circuit?"}
+{"index": 563, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 564, "question": "How many and gates are in this logic circuit?"}
+{"index": 565, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 566, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 567, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 568, "question": "How many xor gates are in this logic circuit?"}
+{"index": 569, "question": "How many or gates are in this logic circuit?"}
+{"index": 570, "question": "How many xor gates are in this logic circuit?"}
+{"index": 571, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 572, "question": "How many or gates are in this logic circuit?"}
+{"index": 573, "question": "How many and gates are in this logic circuit?"}
+{"index": 574, "question": "How many not gates are in this logic circuit?"}
+{"index": 575, "question": "How many or gates are in this logic circuit?"}
+{"index": 576, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 577, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 578, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 579, "question": "How many nand gates are in this logic circuit?"}
+{"index": 580, "question": "How many or gates are in this logic circuit?"}
+{"index": 581, "question": "How many xor gates are in this logic circuit?"}
+{"index": 582, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 583, "question": "How many not gates are in this logic circuit?"}
+{"index": 584, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 585, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 586, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 587, "question": "How many xor gates are in this logic circuit?"}
+{"index": 588, "question": "How many or gates are in this logic circuit?"}
+{"index": 589, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 590, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 591, "question": "How many not gates are in this logic circuit?"}
+{"index": 592, "question": "How many or gates are in this logic circuit?"}
+{"index": 593, "question": "How many not gates are in this logic circuit?"}
+{"index": 594, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 595, "question": "How many not gates are in this logic circuit?"}
+{"index": 596, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 597, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 598, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 599, "question": "How many nand gates are in this logic circuit?"}
+{"index": 600, "question": "How many and gates are in this logic circuit?"}
+{"index": 601, "question": "How many or gates are in this logic circuit?"}
+{"index": 602, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 603, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 604, "question": "How many nand gates are in this logic circuit?"}
+{"index": 605, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 606, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 607, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 608, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 609, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 610, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 611, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 612, "question": "How many or gates are in this logic circuit?"}
+{"index": 613, "question": "How many nor gates are in this logic circuit?"}
+{"index": 614, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 615, "question": "How many nor gates are in this logic circuit?"}
+{"index": 616, "question": "How many nor gates are in this logic circuit?"}
+{"index": 617, "question": "How many not gates are in this logic circuit?"}
+{"index": 618, "question": "How many or gates are in this logic circuit?"}
+{"index": 619, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 620, "question": "How many nand gates are in this logic circuit?"}
+{"index": 621, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 622, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 623, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 624, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 625, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 626, "question": "How many xor gates are in this logic circuit?"}
+{"index": 627, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 628, "question": "How many or gates are in this logic circuit?"}
+{"index": 629, "question": "How many not gates are in this logic circuit?"}
+{"index": 630, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 631, "question": "How many nor gates are in this logic circuit?"}
+{"index": 632, "question": "How many or gates are in this logic circuit?"}
+{"index": 633, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 634, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 635, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 636, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 637, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 638, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 639, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 640, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 641, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 642, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 643, "question": "How many nand gates are in this logic circuit?"}
+{"index": 644, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 645, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 646, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 647, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 648, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 649, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 650, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 651, "question": "How many xor gates are in this logic circuit?"}
+{"index": 652, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 653, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 654, "question": "How many not gates are in this logic circuit?"}
+{"index": 655, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 656, "question": "How many and gates are in this logic circuit?"}
+{"index": 657, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 658, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 659, "question": "How many nor gates are in this logic circuit?"}
+{"index": 660, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 661, "question": "How many and gates are in this logic circuit?"}
+{"index": 662, "question": "How many nor gates are in this logic circuit?"}
+{"index": 663, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 664, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 665, "question": "How many not gates are in this logic circuit?"}
+{"index": 666, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 667, "question": "How many nor gates are in this logic circuit?"}
+{"index": 668, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 669, "question": "How many or gates are in this logic circuit?"}
+{"index": 670, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 671, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 672, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 673, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 674, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 675, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 676, "question": "How many not gates are in this logic circuit?"}
+{"index": 677, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 678, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 679, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 680, "question": "How many or gates are in this logic circuit?"}
+{"index": 681, "question": "How many nand gates are in this logic circuit?"}
+{"index": 682, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 683, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 684, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 685, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 686, "question": "How many not gates are in this logic circuit?"}
+{"index": 687, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 688, "question": "How many nand gates are in this logic circuit?"}
+{"index": 689, "question": "How many or gates are in this logic circuit?"}
+{"index": 690, "question": "How many nor gates are in this logic circuit?"}
+{"index": 691, "question": "How many or gates are in this logic circuit?"}
+{"index": 692, "question": "How many and gates are in this logic circuit?"}
+{"index": 693, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 694, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 695, "question": "How many and gates are in this logic circuit?"}
+{"index": 696, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 697, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 698, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 699, "question": "How many or gates are in this logic circuit?"}
+{"index": 700, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 701, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 702, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 703, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 704, "question": "How many or gates are in this logic circuit?"}
+{"index": 705, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 706, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 707, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 708, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 709, "question": "How many xor gates are in this logic circuit?"}
+{"index": 710, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 711, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 712, "question": "How many or gates are in this logic circuit?"}
+{"index": 713, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 714, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 715, "question": "How many and gates are in this logic circuit?"}
+{"index": 716, "question": "How many and gates are in this logic circuit?"}
+{"index": 717, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 718, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 719, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 720, "question": "How many and gates are in this logic circuit?"}
+{"index": 721, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 722, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 723, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 724, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 725, "question": "How many not gates are in this logic circuit?"}
+{"index": 726, "question": "How many not gates are in this logic circuit?"}
+{"index": 727, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 728, "question": "How many or gates are in this logic circuit?"}
+{"index": 729, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 730, "question": "How many nor gates are in this logic circuit?"}
+{"index": 731, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 732, "question": "How many xor gates are in this logic circuit?"}
+{"index": 733, "question": "How many not gates are in this logic circuit?"}
+{"index": 734, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 735, "question": "How many and gates are in this logic circuit?"}
+{"index": 736, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 737, "question": "How many nand gates are in this logic circuit?"}
+{"index": 738, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 739, "question": "How many nand gates are in this logic circuit?"}
+{"index": 740, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 741, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 742, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 743, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 744, "question": "How many nor gates are in this logic circuit?"}
+{"index": 745, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 746, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 747, "question": "How many nor gates are in this logic circuit?"}
+{"index": 748, "question": "How many xor gates are in this logic circuit?"}
+{"index": 749, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 750, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 751, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 752, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 753, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 754, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 755, "question": "How many not gates are in this logic circuit?"}
+{"index": 756, "question": "How many xor gates are in this logic circuit?"}
+{"index": 757, "question": "How many nor gates are in this logic circuit?"}
+{"index": 758, "question": "How many nor gates are in this logic circuit?"}
+{"index": 759, "question": "How many nor gates are in this logic circuit?"}
+{"index": 760, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 761, "question": "How many or gates are in this logic circuit?"}
+{"index": 762, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 763, "question": "How many nand gates are in this logic circuit?"}
+{"index": 764, "question": "How many xor gates are in this logic circuit?"}
+{"index": 765, "question": "How many or gates are in this logic circuit?"}
+{"index": 766, "question": "How many nor gates are in this logic circuit?"}
+{"index": 767, "question": "How many or gates are in this logic circuit?"}
+{"index": 768, "question": "How many or gates are in this logic circuit?"}
+{"index": 769, "question": "How many and gates are in this logic circuit?"}
+{"index": 770, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 771, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 772, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 773, "question": "How many xor gates are in this logic circuit?"}
+{"index": 774, "question": "How many not gates are in this logic circuit?"}
+{"index": 775, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 776, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 777, "question": "How many or gates are in this logic circuit?"}
+{"index": 778, "question": "How many not gates are in this logic circuit?"}
+{"index": 779, "question": "How many xor gates are in this logic circuit?"}
+{"index": 780, "question": "How many and gates are in this logic circuit?"}
+{"index": 781, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 782, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 783, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 784, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 785, "question": "How many not gates are in this logic circuit?"}
+{"index": 786, "question": "How many nand gates are in this logic circuit?"}
+{"index": 787, "question": "How many and gates are in this logic circuit?"}
+{"index": 788, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 789, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 790, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 791, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 792, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 793, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 794, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 795, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 796, "question": "How many nand gates are in this logic circuit?"}
+{"index": 797, "question": "How many or gates are in this logic circuit?"}
+{"index": 798, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 799, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 800, "question": "How many or gates are in this logic circuit?"}
+{"index": 801, "question": "How many and gates are in this logic circuit?"}
+{"index": 802, "question": "How many not gates are in this logic circuit?"}
+{"index": 803, "question": "How many nor gates are in this logic circuit?"}
+{"index": 804, "question": "How many or gates are in this logic circuit?"}
+{"index": 805, "question": "How many nand gates are in this logic circuit?"}
+{"index": 806, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 807, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 808, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 809, "question": "How many xor gates are in this logic circuit?"}
+{"index": 810, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 811, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 812, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 813, "question": "How many and gates are in this logic circuit?"}
+{"index": 814, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 815, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 816, "question": "How many nor gates are in this logic circuit?"}
+{"index": 817, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 818, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 819, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 820, "question": "How many xor gates are in this logic circuit?"}
+{"index": 821, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 822, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 823, "question": "How many nand gates are in this logic circuit?"}
+{"index": 824, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 825, "question": "How many xor gates are in this logic circuit?"}
+{"index": 826, "question": "How many and gates are in this logic circuit?"}
+{"index": 827, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 828, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 829, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 830, "question": "How many or gates are in this logic circuit?"}
+{"index": 831, "question": "How many nor gates are in this logic circuit?"}
+{"index": 832, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 833, "question": "How many nand gates are in this logic circuit?"}
+{"index": 834, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 835, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 836, "question": "How many nand gates are in this logic circuit?"}
+{"index": 837, "question": "How many and gates are in this logic circuit?"}
+{"index": 838, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 839, "question": "How many or gates are in this logic circuit?"}
+{"index": 840, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 841, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 842, "question": "How many nor gates are in this logic circuit?"}
+{"index": 843, "question": "How many xor gates are in this logic circuit?"}
+{"index": 844, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 845, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 846, "question": "How many and gates are in this logic circuit?"}
+{"index": 847, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 848, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 849, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 850, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 851, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 852, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 853, "question": "How many or gates are in this logic circuit?"}
+{"index": 854, "question": "How many and gates are in this logic circuit?"}
+{"index": 855, "question": "How many xor gates are in this logic circuit?"}
+{"index": 856, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 857, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 858, "question": "How many not gates are in this logic circuit?"}
+{"index": 859, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 860, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 861, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 862, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 863, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 864, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 865, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 866, "question": "How many not gates are in this logic circuit?"}
+{"index": 867, "question": "How many xor gates are in this logic circuit?"}
+{"index": 868, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 869, "question": "How many and gates are in this logic circuit?"}
+{"index": 870, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 871, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 872, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 873, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 874, "question": "How many xor gates are in this logic circuit?"}
+{"index": 875, "question": "How many xor gates are in this logic circuit?"}
+{"index": 876, "question": "How many or gates are in this logic circuit?"}
+{"index": 877, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 878, "question": "How many xor gates are in this logic circuit?"}
+{"index": 879, "question": "How many nor gates are in this logic circuit?"}
+{"index": 880, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 881, "question": "How many xor gates are in this logic circuit?"}
+{"index": 882, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 883, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 884, "question": "How many or gates are in this logic circuit?"}
+{"index": 885, "question": "How many and gates are in this logic circuit?"}
+{"index": 886, "question": "How many nand gates are in this logic circuit?"}
+{"index": 887, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 888, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 889, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 890, "question": "How many xor gates are in this logic circuit?"}
+{"index": 891, "question": "How many nand gates are in this logic circuit?"}
+{"index": 892, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 893, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 894, "question": "How many and gates are in this logic circuit?"}
+{"index": 895, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 896, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 897, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 898, "question": "How many nor gates are in this logic circuit?"}
+{"index": 899, "question": "How many or gates are in this logic circuit?"}
+{"index": 900, "question": "How many nor gates are in this logic circuit?"}
+{"index": 901, "question": "How many nor gates are in this logic circuit?"}
+{"index": 902, "question": "How many xor gates are in this logic circuit?"}
+{"index": 903, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 904, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 905, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 906, "question": "How many xor gates are in this logic circuit?"}
+{"index": 907, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 908, "question": "How many and gates are in this logic circuit?"}
+{"index": 909, "question": "How many or gates are in this logic circuit?"}
+{"index": 910, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 911, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 912, "question": "How many and gates are in this logic circuit?"}
+{"index": 913, "question": "How many nand gates are in this logic circuit?"}
+{"index": 914, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 915, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 916, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 917, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 918, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 919, "question": "How many nand gates are in this logic circuit?"}
+{"index": 920, "question": "How many nand gates are in this logic circuit?"}
+{"index": 921, "question": "How many xor gates are in this logic circuit?"}
+{"index": 922, "question": "How many and gates are in this logic circuit?"}
+{"index": 923, "question": "How many nor gates are in this logic circuit?"}
+{"index": 924, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 925, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 926, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 927, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 928, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 929, "question": "How many or gates are in this logic circuit?"}
+{"index": 930, "question": "How many xor gates are in this logic circuit?"}
+{"index": 931, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 932, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 933, "question": "How many nor gates are in this logic circuit?"}
+{"index": 934, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 935, "question": "How many not gates are in this logic circuit?"}
+{"index": 936, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 937, "question": "How many nor gates are in this logic circuit?"}
+{"index": 938, "question": "How many and gates are in this logic circuit?"}
+{"index": 939, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 940, "question": "How many or gates are in this logic circuit?"}
+{"index": 941, "question": "How many xor gates are in this logic circuit?"}
+{"index": 942, "question": "How many nand gates are in this logic circuit?"}
+{"index": 943, "question": "How many nor gates are in this logic circuit?"}
+{"index": 944, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 945, "question": "How many nor gates are in this logic circuit?"}
+{"index": 946, "question": "How many not gates are in this logic circuit?"}
+{"index": 947, "question": "How many not gates are in this logic circuit?"}
+{"index": 948, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 949, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 950, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 951, "question": "How many nor gates are in this logic circuit?"}
+{"index": 952, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 953, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 954, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 955, "question": "How many not gates are in this logic circuit?"}
+{"index": 956, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 957, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 958, "question": "How many and gates are in this logic circuit?"}
+{"index": 959, "question": "How many not gates are in this logic circuit?"}
+{"index": 960, "question": "How many xor gates are in this logic circuit?"}
+{"index": 961, "question": "How many and gates are in this logic circuit?"}
+{"index": 962, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 963, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 964, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 965, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 966, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 967, "question": "How many nand gates are in this logic circuit?"}
+{"index": 968, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 969, "question": "How many nor gates are in this logic circuit?"}
+{"index": 970, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 971, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 972, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 973, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 974, "question": "How many xor gates are in this logic circuit?"}
+{"index": 975, "question": "How many xor gates are in this logic circuit?"}
+{"index": 976, "question": "How many nor gates are in this logic circuit?"}
+{"index": 977, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 978, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 979, "question": "How many nand gates are in this logic circuit?"}
+{"index": 980, "question": "How many xor gates are in this logic circuit?"}
+{"index": 981, "question": "How many xor gates are in this logic circuit?"}
+{"index": 982, "question": "How many nand gates are in this logic circuit?"}
+{"index": 983, "question": "How many and gates are in this logic circuit?"}
+{"index": 984, "question": "How many not gates are in this logic circuit?"}
+{"index": 985, "question": "How many xor gates are in this logic circuit?"}
+{"index": 986, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 987, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 988, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 989, "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 990, "question": "How many not gates are in this logic circuit?"}
+{"index": 991, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 992, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 993, "question": "How many nor gates are in this logic circuit?"}
+{"index": 994, "question": "How many xnor gates are in this logic circuit?"}
+{"index": 995, "question": "How many xor gates are in this logic circuit?"}
+{"index": 996, "question": "How many and gates are in this logic circuit?"}
+{"index": 997, "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 998, "question": "How many nand gates are in this logic circuit?"}
+{"index": 999, "question": "How many xor gates are in this logic circuit?"}

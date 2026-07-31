@@ -1,0 +1,1000 @@
+{"index": 0, "image": "kaggle_dataset/test_dataset/images/circuit_0.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 1, "image": "kaggle_dataset/test_dataset/images/circuit_1.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 2, "image": "kaggle_dataset/test_dataset/images/circuit_2.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 3, "image": "kaggle_dataset/test_dataset/images/circuit_3.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 4, "image": "kaggle_dataset/test_dataset/images/circuit_4.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 5, "image": "kaggle_dataset/test_dataset/images/circuit_5.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 6, "image": "kaggle_dataset/test_dataset/images/circuit_6.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 7, "image": "kaggle_dataset/test_dataset/images/circuit_7.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 8, "image": "kaggle_dataset/test_dataset/images/circuit_8.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 9, "image": "kaggle_dataset/test_dataset/images/circuit_9.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 10, "image": "kaggle_dataset/test_dataset/images/circuit_10.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 11, "image": "kaggle_dataset/test_dataset/images/circuit_11.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 12, "image": "kaggle_dataset/test_dataset/images/circuit_12.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 13, "image": "kaggle_dataset/test_dataset/images/circuit_13.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 14, "image": "kaggle_dataset/test_dataset/images/circuit_14.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 15, "image": "kaggle_dataset/test_dataset/images/circuit_15.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 16, "image": "kaggle_dataset/test_dataset/images/circuit_16.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 17, "image": "kaggle_dataset/test_dataset/images/circuit_17.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 18, "image": "kaggle_dataset/test_dataset/images/circuit_18.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 19, "image": "kaggle_dataset/test_dataset/images/circuit_19.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 20, "image": "kaggle_dataset/test_dataset/images/circuit_20.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 21, "image": "kaggle_dataset/test_dataset/images/circuit_21.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 22, "image": "kaggle_dataset/test_dataset/images/circuit_22.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 23, "image": "kaggle_dataset/test_dataset/images/circuit_23.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 24, "image": "kaggle_dataset/test_dataset/images/circuit_24.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 25, "image": "kaggle_dataset/test_dataset/images/circuit_25.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 26, "image": "kaggle_dataset/test_dataset/images/circuit_26.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 27, "image": "kaggle_dataset/test_dataset/images/circuit_27.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 28, "image": "kaggle_dataset/test_dataset/images/circuit_28.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 29, "image": "kaggle_dataset/test_dataset/images/circuit_29.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 30, "image": "kaggle_dataset/test_dataset/images/circuit_30.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 31, "image": "kaggle_dataset/test_dataset/images/circuit_31.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 32, "image": "kaggle_dataset/test_dataset/images/circuit_32.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 33, "image": "kaggle_dataset/test_dataset/images/circuit_33.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 34, "image": "kaggle_dataset/test_dataset/images/circuit_34.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 35, "image": "kaggle_dataset/test_dataset/images/circuit_35.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 36, "image": "kaggle_dataset/test_dataset/images/circuit_36.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 37, "image": "kaggle_dataset/test_dataset/images/circuit_37.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 38, "image": "kaggle_dataset/test_dataset/images/circuit_38.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 39, "image": "kaggle_dataset/test_dataset/images/circuit_39.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 40, "image": "kaggle_dataset/test_dataset/images/circuit_40.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 41, "image": "kaggle_dataset/test_dataset/images/circuit_41.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 42, "image": "kaggle_dataset/test_dataset/images/circuit_42.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 43, "image": "kaggle_dataset/test_dataset/images/circuit_43.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 44, "image": "kaggle_dataset/test_dataset/images/circuit_44.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 45, "image": "kaggle_dataset/test_dataset/images/circuit_45.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 46, "image": "kaggle_dataset/test_dataset/images/circuit_46.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 47, "image": "kaggle_dataset/test_dataset/images/circuit_47.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 48, "image": "kaggle_dataset/test_dataset/images/circuit_48.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 49, "image": "kaggle_dataset/test_dataset/images/circuit_49.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 50, "image": "kaggle_dataset/test_dataset/images/circuit_50.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 51, "image": "kaggle_dataset/test_dataset/images/circuit_51.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 52, "image": "kaggle_dataset/test_dataset/images/circuit_52.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 53, "image": "kaggle_dataset/test_dataset/images/circuit_53.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 54, "image": "kaggle_dataset/test_dataset/images/circuit_54.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 55, "image": "kaggle_dataset/test_dataset/images/circuit_55.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 56, "image": "kaggle_dataset/test_dataset/images/circuit_56.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 57, "image": "kaggle_dataset/test_dataset/images/circuit_57.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 58, "image": "kaggle_dataset/test_dataset/images/circuit_58.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 59, "image": "kaggle_dataset/test_dataset/images/circuit_59.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 60, "image": "kaggle_dataset/test_dataset/images/circuit_60.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 61, "image": "kaggle_dataset/test_dataset/images/circuit_61.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 62, "image": "kaggle_dataset/test_dataset/images/circuit_62.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 63, "image": "kaggle_dataset/test_dataset/images/circuit_63.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 64, "image": "kaggle_dataset/test_dataset/images/circuit_64.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 65, "image": "kaggle_dataset/test_dataset/images/circuit_65.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 66, "image": "kaggle_dataset/test_dataset/images/circuit_66.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 67, "image": "kaggle_dataset/test_dataset/images/circuit_67.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 68, "image": "kaggle_dataset/test_dataset/images/circuit_68.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 69, "image": "kaggle_dataset/test_dataset/images/circuit_69.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 70, "image": "kaggle_dataset/test_dataset/images/circuit_70.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 71, "image": "kaggle_dataset/test_dataset/images/circuit_71.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 72, "image": "kaggle_dataset/test_dataset/images/circuit_72.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 73, "image": "kaggle_dataset/test_dataset/images/circuit_73.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 74, "image": "kaggle_dataset/test_dataset/images/circuit_74.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 75, "image": "kaggle_dataset/test_dataset/images/circuit_75.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 76, "image": "kaggle_dataset/test_dataset/images/circuit_76.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 77, "image": "kaggle_dataset/test_dataset/images/circuit_77.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 78, "image": "kaggle_dataset/test_dataset/images/circuit_78.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 79, "image": "kaggle_dataset/test_dataset/images/circuit_79.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 80, "image": "kaggle_dataset/test_dataset/images/circuit_80.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 81, "image": "kaggle_dataset/test_dataset/images/circuit_81.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 82, "image": "kaggle_dataset/test_dataset/images/circuit_82.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 83, "image": "kaggle_dataset/test_dataset/images/circuit_83.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 84, "image": "kaggle_dataset/test_dataset/images/circuit_84.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 85, "image": "kaggle_dataset/test_dataset/images/circuit_85.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 86, "image": "kaggle_dataset/test_dataset/images/circuit_86.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 87, "image": "kaggle_dataset/test_dataset/images/circuit_87.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 88, "image": "kaggle_dataset/test_dataset/images/circuit_88.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 89, "image": "kaggle_dataset/test_dataset/images/circuit_89.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 90, "image": "kaggle_dataset/test_dataset/images/circuit_90.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 91, "image": "kaggle_dataset/test_dataset/images/circuit_91.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 92, "image": "kaggle_dataset/test_dataset/images/circuit_92.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 93, "image": "kaggle_dataset/test_dataset/images/circuit_93.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 94, "image": "kaggle_dataset/test_dataset/images/circuit_94.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 95, "image": "kaggle_dataset/test_dataset/images/circuit_95.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 96, "image": "kaggle_dataset/test_dataset/images/circuit_96.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 97, "image": "kaggle_dataset/test_dataset/images/circuit_97.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 98, "image": "kaggle_dataset/test_dataset/images/circuit_98.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 99, "image": "kaggle_dataset/test_dataset/images/circuit_99.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 100, "image": "kaggle_dataset/test_dataset/images/circuit_100.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 101, "image": "kaggle_dataset/test_dataset/images/circuit_101.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 102, "image": "kaggle_dataset/test_dataset/images/circuit_102.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 103, "image": "kaggle_dataset/test_dataset/images/circuit_103.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 104, "image": "kaggle_dataset/test_dataset/images/circuit_104.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 105, "image": "kaggle_dataset/test_dataset/images/circuit_105.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 106, "image": "kaggle_dataset/test_dataset/images/circuit_106.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 107, "image": "kaggle_dataset/test_dataset/images/circuit_107.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 108, "image": "kaggle_dataset/test_dataset/images/circuit_108.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 109, "image": "kaggle_dataset/test_dataset/images/circuit_109.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 110, "image": "kaggle_dataset/test_dataset/images/circuit_110.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 111, "image": "kaggle_dataset/test_dataset/images/circuit_111.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 112, "image": "kaggle_dataset/test_dataset/images/circuit_112.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 113, "image": "kaggle_dataset/test_dataset/images/circuit_113.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 114, "image": "kaggle_dataset/test_dataset/images/circuit_114.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 115, "image": "kaggle_dataset/test_dataset/images/circuit_115.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 116, "image": "kaggle_dataset/test_dataset/images/circuit_116.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 117, "image": "kaggle_dataset/test_dataset/images/circuit_117.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 118, "image": "kaggle_dataset/test_dataset/images/circuit_118.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 119, "image": "kaggle_dataset/test_dataset/images/circuit_119.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 120, "image": "kaggle_dataset/test_dataset/images/circuit_120.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 121, "image": "kaggle_dataset/test_dataset/images/circuit_121.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 122, "image": "kaggle_dataset/test_dataset/images/circuit_122.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 123, "image": "kaggle_dataset/test_dataset/images/circuit_123.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 124, "image": "kaggle_dataset/test_dataset/images/circuit_124.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 125, "image": "kaggle_dataset/test_dataset/images/circuit_125.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 126, "image": "kaggle_dataset/test_dataset/images/circuit_126.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 127, "image": "kaggle_dataset/test_dataset/images/circuit_127.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 128, "image": "kaggle_dataset/test_dataset/images/circuit_128.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 129, "image": "kaggle_dataset/test_dataset/images/circuit_129.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 130, "image": "kaggle_dataset/test_dataset/images/circuit_130.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 131, "image": "kaggle_dataset/test_dataset/images/circuit_131.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 132, "image": "kaggle_dataset/test_dataset/images/circuit_132.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 133, "image": "kaggle_dataset/test_dataset/images/circuit_133.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 134, "image": "kaggle_dataset/test_dataset/images/circuit_134.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 135, "image": "kaggle_dataset/test_dataset/images/circuit_135.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 136, "image": "kaggle_dataset/test_dataset/images/circuit_136.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 137, "image": "kaggle_dataset/test_dataset/images/circuit_137.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 138, "image": "kaggle_dataset/test_dataset/images/circuit_138.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 139, "image": "kaggle_dataset/test_dataset/images/circuit_139.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 140, "image": "kaggle_dataset/test_dataset/images/circuit_140.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 141, "image": "kaggle_dataset/test_dataset/images/circuit_141.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 142, "image": "kaggle_dataset/test_dataset/images/circuit_142.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 143, "image": "kaggle_dataset/test_dataset/images/circuit_143.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 144, "image": "kaggle_dataset/test_dataset/images/circuit_144.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 145, "image": "kaggle_dataset/test_dataset/images/circuit_145.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 146, "image": "kaggle_dataset/test_dataset/images/circuit_146.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 147, "image": "kaggle_dataset/test_dataset/images/circuit_147.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 148, "image": "kaggle_dataset/test_dataset/images/circuit_148.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 149, "image": "kaggle_dataset/test_dataset/images/circuit_149.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 150, "image": "kaggle_dataset/test_dataset/images/circuit_150.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 151, "image": "kaggle_dataset/test_dataset/images/circuit_151.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 152, "image": "kaggle_dataset/test_dataset/images/circuit_152.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 153, "image": "kaggle_dataset/test_dataset/images/circuit_153.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 154, "image": "kaggle_dataset/test_dataset/images/circuit_154.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 155, "image": "kaggle_dataset/test_dataset/images/circuit_155.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 156, "image": "kaggle_dataset/test_dataset/images/circuit_156.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 157, "image": "kaggle_dataset/test_dataset/images/circuit_157.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 158, "image": "kaggle_dataset/test_dataset/images/circuit_158.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 159, "image": "kaggle_dataset/test_dataset/images/circuit_159.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 160, "image": "kaggle_dataset/test_dataset/images/circuit_160.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 161, "image": "kaggle_dataset/test_dataset/images/circuit_161.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 162, "image": "kaggle_dataset/test_dataset/images/circuit_162.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 163, "image": "kaggle_dataset/test_dataset/images/circuit_163.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 164, "image": "kaggle_dataset/test_dataset/images/circuit_164.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 165, "image": "kaggle_dataset/test_dataset/images/circuit_165.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 166, "image": "kaggle_dataset/test_dataset/images/circuit_166.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 167, "image": "kaggle_dataset/test_dataset/images/circuit_167.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 168, "image": "kaggle_dataset/test_dataset/images/circuit_168.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 169, "image": "kaggle_dataset/test_dataset/images/circuit_169.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 170, "image": "kaggle_dataset/test_dataset/images/circuit_170.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 171, "image": "kaggle_dataset/test_dataset/images/circuit_171.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 172, "image": "kaggle_dataset/test_dataset/images/circuit_172.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 173, "image": "kaggle_dataset/test_dataset/images/circuit_173.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 174, "image": "kaggle_dataset/test_dataset/images/circuit_174.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 175, "image": "kaggle_dataset/test_dataset/images/circuit_175.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 176, "image": "kaggle_dataset/test_dataset/images/circuit_176.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 177, "image": "kaggle_dataset/test_dataset/images/circuit_177.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 178, "image": "kaggle_dataset/test_dataset/images/circuit_178.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 179, "image": "kaggle_dataset/test_dataset/images/circuit_179.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 180, "image": "kaggle_dataset/test_dataset/images/circuit_180.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 181, "image": "kaggle_dataset/test_dataset/images/circuit_181.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 182, "image": "kaggle_dataset/test_dataset/images/circuit_182.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 183, "image": "kaggle_dataset/test_dataset/images/circuit_183.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 184, "image": "kaggle_dataset/test_dataset/images/circuit_184.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 185, "image": "kaggle_dataset/test_dataset/images/circuit_185.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 186, "image": "kaggle_dataset/test_dataset/images/circuit_186.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 187, "image": "kaggle_dataset/test_dataset/images/circuit_187.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 188, "image": "kaggle_dataset/test_dataset/images/circuit_188.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 189, "image": "kaggle_dataset/test_dataset/images/circuit_189.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 190, "image": "kaggle_dataset/test_dataset/images/circuit_190.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 191, "image": "kaggle_dataset/test_dataset/images/circuit_191.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 192, "image": "kaggle_dataset/test_dataset/images/circuit_192.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 193, "image": "kaggle_dataset/test_dataset/images/circuit_193.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 194, "image": "kaggle_dataset/test_dataset/images/circuit_194.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 195, "image": "kaggle_dataset/test_dataset/images/circuit_195.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 196, "image": "kaggle_dataset/test_dataset/images/circuit_196.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 197, "image": "kaggle_dataset/test_dataset/images/circuit_197.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 198, "image": "kaggle_dataset/test_dataset/images/circuit_198.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 199, "image": "kaggle_dataset/test_dataset/images/circuit_199.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 200, "image": "kaggle_dataset/test_dataset/images/circuit_200.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 201, "image": "kaggle_dataset/test_dataset/images/circuit_201.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 202, "image": "kaggle_dataset/test_dataset/images/circuit_202.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 203, "image": "kaggle_dataset/test_dataset/images/circuit_203.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 204, "image": "kaggle_dataset/test_dataset/images/circuit_204.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 205, "image": "kaggle_dataset/test_dataset/images/circuit_205.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 206, "image": "kaggle_dataset/test_dataset/images/circuit_206.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 207, "image": "kaggle_dataset/test_dataset/images/circuit_207.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 208, "image": "kaggle_dataset/test_dataset/images/circuit_208.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 209, "image": "kaggle_dataset/test_dataset/images/circuit_209.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 210, "image": "kaggle_dataset/test_dataset/images/circuit_210.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 211, "image": "kaggle_dataset/test_dataset/images/circuit_211.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 212, "image": "kaggle_dataset/test_dataset/images/circuit_212.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 213, "image": "kaggle_dataset/test_dataset/images/circuit_213.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 214, "image": "kaggle_dataset/test_dataset/images/circuit_214.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 215, "image": "kaggle_dataset/test_dataset/images/circuit_215.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 216, "image": "kaggle_dataset/test_dataset/images/circuit_216.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 217, "image": "kaggle_dataset/test_dataset/images/circuit_217.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 218, "image": "kaggle_dataset/test_dataset/images/circuit_218.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 219, "image": "kaggle_dataset/test_dataset/images/circuit_219.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 220, "image": "kaggle_dataset/test_dataset/images/circuit_220.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 221, "image": "kaggle_dataset/test_dataset/images/circuit_221.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 222, "image": "kaggle_dataset/test_dataset/images/circuit_222.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 223, "image": "kaggle_dataset/test_dataset/images/circuit_223.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 224, "image": "kaggle_dataset/test_dataset/images/circuit_224.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 225, "image": "kaggle_dataset/test_dataset/images/circuit_225.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 226, "image": "kaggle_dataset/test_dataset/images/circuit_226.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 227, "image": "kaggle_dataset/test_dataset/images/circuit_227.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 228, "image": "kaggle_dataset/test_dataset/images/circuit_228.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 229, "image": "kaggle_dataset/test_dataset/images/circuit_229.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 230, "image": "kaggle_dataset/test_dataset/images/circuit_230.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 231, "image": "kaggle_dataset/test_dataset/images/circuit_231.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 232, "image": "kaggle_dataset/test_dataset/images/circuit_232.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 233, "image": "kaggle_dataset/test_dataset/images/circuit_233.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 234, "image": "kaggle_dataset/test_dataset/images/circuit_234.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 235, "image": "kaggle_dataset/test_dataset/images/circuit_235.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 236, "image": "kaggle_dataset/test_dataset/images/circuit_236.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 237, "image": "kaggle_dataset/test_dataset/images/circuit_237.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 238, "image": "kaggle_dataset/test_dataset/images/circuit_238.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 239, "image": "kaggle_dataset/test_dataset/images/circuit_239.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 240, "image": "kaggle_dataset/test_dataset/images/circuit_240.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 241, "image": "kaggle_dataset/test_dataset/images/circuit_241.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 242, "image": "kaggle_dataset/test_dataset/images/circuit_242.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 243, "image": "kaggle_dataset/test_dataset/images/circuit_243.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 244, "image": "kaggle_dataset/test_dataset/images/circuit_244.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 245, "image": "kaggle_dataset/test_dataset/images/circuit_245.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 246, "image": "kaggle_dataset/test_dataset/images/circuit_246.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 247, "image": "kaggle_dataset/test_dataset/images/circuit_247.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 248, "image": "kaggle_dataset/test_dataset/images/circuit_248.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 249, "image": "kaggle_dataset/test_dataset/images/circuit_249.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 250, "image": "kaggle_dataset/test_dataset/images/circuit_250.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 251, "image": "kaggle_dataset/test_dataset/images/circuit_251.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 252, "image": "kaggle_dataset/test_dataset/images/circuit_252.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 253, "image": "kaggle_dataset/test_dataset/images/circuit_253.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 254, "image": "kaggle_dataset/test_dataset/images/circuit_254.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 255, "image": "kaggle_dataset/test_dataset/images/circuit_255.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 256, "image": "kaggle_dataset/test_dataset/images/circuit_256.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 257, "image": "kaggle_dataset/test_dataset/images/circuit_257.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 258, "image": "kaggle_dataset/test_dataset/images/circuit_258.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 259, "image": "kaggle_dataset/test_dataset/images/circuit_259.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 260, "image": "kaggle_dataset/test_dataset/images/circuit_260.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 261, "image": "kaggle_dataset/test_dataset/images/circuit_261.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 262, "image": "kaggle_dataset/test_dataset/images/circuit_262.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 263, "image": "kaggle_dataset/test_dataset/images/circuit_263.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 264, "image": "kaggle_dataset/test_dataset/images/circuit_264.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 265, "image": "kaggle_dataset/test_dataset/images/circuit_265.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 266, "image": "kaggle_dataset/test_dataset/images/circuit_266.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 267, "image": "kaggle_dataset/test_dataset/images/circuit_267.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 268, "image": "kaggle_dataset/test_dataset/images/circuit_268.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 269, "image": "kaggle_dataset/test_dataset/images/circuit_269.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 270, "image": "kaggle_dataset/test_dataset/images/circuit_270.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 271, "image": "kaggle_dataset/test_dataset/images/circuit_271.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 272, "image": "kaggle_dataset/test_dataset/images/circuit_272.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 273, "image": "kaggle_dataset/test_dataset/images/circuit_273.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 274, "image": "kaggle_dataset/test_dataset/images/circuit_274.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 275, "image": "kaggle_dataset/test_dataset/images/circuit_275.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 276, "image": "kaggle_dataset/test_dataset/images/circuit_276.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 277, "image": "kaggle_dataset/test_dataset/images/circuit_277.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 278, "image": "kaggle_dataset/test_dataset/images/circuit_278.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 279, "image": "kaggle_dataset/test_dataset/images/circuit_279.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 280, "image": "kaggle_dataset/test_dataset/images/circuit_280.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 281, "image": "kaggle_dataset/test_dataset/images/circuit_281.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 282, "image": "kaggle_dataset/test_dataset/images/circuit_282.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 283, "image": "kaggle_dataset/test_dataset/images/circuit_283.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 284, "image": "kaggle_dataset/test_dataset/images/circuit_284.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 285, "image": "kaggle_dataset/test_dataset/images/circuit_285.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 286, "image": "kaggle_dataset/test_dataset/images/circuit_286.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 287, "image": "kaggle_dataset/test_dataset/images/circuit_287.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 288, "image": "kaggle_dataset/test_dataset/images/circuit_288.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 289, "image": "kaggle_dataset/test_dataset/images/circuit_289.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 290, "image": "kaggle_dataset/test_dataset/images/circuit_290.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 291, "image": "kaggle_dataset/test_dataset/images/circuit_291.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 292, "image": "kaggle_dataset/test_dataset/images/circuit_292.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 293, "image": "kaggle_dataset/test_dataset/images/circuit_293.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 294, "image": "kaggle_dataset/test_dataset/images/circuit_294.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 295, "image": "kaggle_dataset/test_dataset/images/circuit_295.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 296, "image": "kaggle_dataset/test_dataset/images/circuit_296.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 297, "image": "kaggle_dataset/test_dataset/images/circuit_297.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 298, "image": "kaggle_dataset/test_dataset/images/circuit_298.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 299, "image": "kaggle_dataset/test_dataset/images/circuit_299.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 300, "image": "kaggle_dataset/test_dataset/images/circuit_300.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 301, "image": "kaggle_dataset/test_dataset/images/circuit_301.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 302, "image": "kaggle_dataset/test_dataset/images/circuit_302.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 303, "image": "kaggle_dataset/test_dataset/images/circuit_303.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 304, "image": "kaggle_dataset/test_dataset/images/circuit_304.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 305, "image": "kaggle_dataset/test_dataset/images/circuit_305.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 306, "image": "kaggle_dataset/test_dataset/images/circuit_306.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 307, "image": "kaggle_dataset/test_dataset/images/circuit_307.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 308, "image": "kaggle_dataset/test_dataset/images/circuit_308.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 309, "image": "kaggle_dataset/test_dataset/images/circuit_309.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 310, "image": "kaggle_dataset/test_dataset/images/circuit_310.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 311, "image": "kaggle_dataset/test_dataset/images/circuit_311.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 312, "image": "kaggle_dataset/test_dataset/images/circuit_312.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 313, "image": "kaggle_dataset/test_dataset/images/circuit_313.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 314, "image": "kaggle_dataset/test_dataset/images/circuit_314.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 315, "image": "kaggle_dataset/test_dataset/images/circuit_315.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 316, "image": "kaggle_dataset/test_dataset/images/circuit_316.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 317, "image": "kaggle_dataset/test_dataset/images/circuit_317.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 318, "image": "kaggle_dataset/test_dataset/images/circuit_318.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 319, "image": "kaggle_dataset/test_dataset/images/circuit_319.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 320, "image": "kaggle_dataset/test_dataset/images/circuit_320.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 321, "image": "kaggle_dataset/test_dataset/images/circuit_321.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 322, "image": "kaggle_dataset/test_dataset/images/circuit_322.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 323, "image": "kaggle_dataset/test_dataset/images/circuit_323.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 324, "image": "kaggle_dataset/test_dataset/images/circuit_324.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 325, "image": "kaggle_dataset/test_dataset/images/circuit_325.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 326, "image": "kaggle_dataset/test_dataset/images/circuit_326.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 327, "image": "kaggle_dataset/test_dataset/images/circuit_327.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 328, "image": "kaggle_dataset/test_dataset/images/circuit_328.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 329, "image": "kaggle_dataset/test_dataset/images/circuit_329.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 330, "image": "kaggle_dataset/test_dataset/images/circuit_330.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 331, "image": "kaggle_dataset/test_dataset/images/circuit_331.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 332, "image": "kaggle_dataset/test_dataset/images/circuit_332.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 333, "image": "kaggle_dataset/test_dataset/images/circuit_333.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 334, "image": "kaggle_dataset/test_dataset/images/circuit_334.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 335, "image": "kaggle_dataset/test_dataset/images/circuit_335.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 336, "image": "kaggle_dataset/test_dataset/images/circuit_336.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 337, "image": "kaggle_dataset/test_dataset/images/circuit_337.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 338, "image": "kaggle_dataset/test_dataset/images/circuit_338.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 339, "image": "kaggle_dataset/test_dataset/images/circuit_339.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 340, "image": "kaggle_dataset/test_dataset/images/circuit_340.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 341, "image": "kaggle_dataset/test_dataset/images/circuit_341.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 342, "image": "kaggle_dataset/test_dataset/images/circuit_342.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 343, "image": "kaggle_dataset/test_dataset/images/circuit_343.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 344, "image": "kaggle_dataset/test_dataset/images/circuit_344.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 345, "image": "kaggle_dataset/test_dataset/images/circuit_345.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 346, "image": "kaggle_dataset/test_dataset/images/circuit_346.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 347, "image": "kaggle_dataset/test_dataset/images/circuit_347.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 348, "image": "kaggle_dataset/test_dataset/images/circuit_348.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 349, "image": "kaggle_dataset/test_dataset/images/circuit_349.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 350, "image": "kaggle_dataset/test_dataset/images/circuit_350.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 351, "image": "kaggle_dataset/test_dataset/images/circuit_351.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 352, "image": "kaggle_dataset/test_dataset/images/circuit_352.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 353, "image": "kaggle_dataset/test_dataset/images/circuit_353.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 354, "image": "kaggle_dataset/test_dataset/images/circuit_354.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 355, "image": "kaggle_dataset/test_dataset/images/circuit_355.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 356, "image": "kaggle_dataset/test_dataset/images/circuit_356.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 357, "image": "kaggle_dataset/test_dataset/images/circuit_357.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 358, "image": "kaggle_dataset/test_dataset/images/circuit_358.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 359, "image": "kaggle_dataset/test_dataset/images/circuit_359.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 360, "image": "kaggle_dataset/test_dataset/images/circuit_360.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 361, "image": "kaggle_dataset/test_dataset/images/circuit_361.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 362, "image": "kaggle_dataset/test_dataset/images/circuit_362.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 363, "image": "kaggle_dataset/test_dataset/images/circuit_363.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 364, "image": "kaggle_dataset/test_dataset/images/circuit_364.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 365, "image": "kaggle_dataset/test_dataset/images/circuit_365.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 366, "image": "kaggle_dataset/test_dataset/images/circuit_366.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 367, "image": "kaggle_dataset/test_dataset/images/circuit_367.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 368, "image": "kaggle_dataset/test_dataset/images/circuit_368.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 369, "image": "kaggle_dataset/test_dataset/images/circuit_369.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 370, "image": "kaggle_dataset/test_dataset/images/circuit_370.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 371, "image": "kaggle_dataset/test_dataset/images/circuit_371.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 372, "image": "kaggle_dataset/test_dataset/images/circuit_372.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 373, "image": "kaggle_dataset/test_dataset/images/circuit_373.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 374, "image": "kaggle_dataset/test_dataset/images/circuit_374.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 375, "image": "kaggle_dataset/test_dataset/images/circuit_375.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 376, "image": "kaggle_dataset/test_dataset/images/circuit_376.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 377, "image": "kaggle_dataset/test_dataset/images/circuit_377.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 378, "image": "kaggle_dataset/test_dataset/images/circuit_378.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 379, "image": "kaggle_dataset/test_dataset/images/circuit_379.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 380, "image": "kaggle_dataset/test_dataset/images/circuit_380.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 381, "image": "kaggle_dataset/test_dataset/images/circuit_381.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 382, "image": "kaggle_dataset/test_dataset/images/circuit_382.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 383, "image": "kaggle_dataset/test_dataset/images/circuit_383.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 384, "image": "kaggle_dataset/test_dataset/images/circuit_384.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 385, "image": "kaggle_dataset/test_dataset/images/circuit_385.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 386, "image": "kaggle_dataset/test_dataset/images/circuit_386.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 387, "image": "kaggle_dataset/test_dataset/images/circuit_387.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 388, "image": "kaggle_dataset/test_dataset/images/circuit_388.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 389, "image": "kaggle_dataset/test_dataset/images/circuit_389.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 390, "image": "kaggle_dataset/test_dataset/images/circuit_390.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 391, "image": "kaggle_dataset/test_dataset/images/circuit_391.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 392, "image": "kaggle_dataset/test_dataset/images/circuit_392.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 393, "image": "kaggle_dataset/test_dataset/images/circuit_393.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 394, "image": "kaggle_dataset/test_dataset/images/circuit_394.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 395, "image": "kaggle_dataset/test_dataset/images/circuit_395.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 396, "image": "kaggle_dataset/test_dataset/images/circuit_396.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 397, "image": "kaggle_dataset/test_dataset/images/circuit_397.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 398, "image": "kaggle_dataset/test_dataset/images/circuit_398.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 399, "image": "kaggle_dataset/test_dataset/images/circuit_399.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 400, "image": "kaggle_dataset/test_dataset/images/circuit_400.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 401, "image": "kaggle_dataset/test_dataset/images/circuit_401.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 402, "image": "kaggle_dataset/test_dataset/images/circuit_402.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 403, "image": "kaggle_dataset/test_dataset/images/circuit_403.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 404, "image": "kaggle_dataset/test_dataset/images/circuit_404.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 405, "image": "kaggle_dataset/test_dataset/images/circuit_405.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 406, "image": "kaggle_dataset/test_dataset/images/circuit_406.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False, x9=True, x10=True?"}
+{"index": 407, "image": "kaggle_dataset/test_dataset/images/circuit_407.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 408, "image": "kaggle_dataset/test_dataset/images/circuit_408.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 409, "image": "kaggle_dataset/test_dataset/images/circuit_409.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 410, "image": "kaggle_dataset/test_dataset/images/circuit_410.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 411, "image": "kaggle_dataset/test_dataset/images/circuit_411.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 412, "image": "kaggle_dataset/test_dataset/images/circuit_412.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 413, "image": "kaggle_dataset/test_dataset/images/circuit_413.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 414, "image": "kaggle_dataset/test_dataset/images/circuit_414.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 415, "image": "kaggle_dataset/test_dataset/images/circuit_415.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 416, "image": "kaggle_dataset/test_dataset/images/circuit_416.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 417, "image": "kaggle_dataset/test_dataset/images/circuit_417.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 418, "image": "kaggle_dataset/test_dataset/images/circuit_418.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 419, "image": "kaggle_dataset/test_dataset/images/circuit_419.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 420, "image": "kaggle_dataset/test_dataset/images/circuit_420.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 421, "image": "kaggle_dataset/test_dataset/images/circuit_421.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 422, "image": "kaggle_dataset/test_dataset/images/circuit_422.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 423, "image": "kaggle_dataset/test_dataset/images/circuit_423.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 424, "image": "kaggle_dataset/test_dataset/images/circuit_424.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 425, "image": "kaggle_dataset/test_dataset/images/circuit_425.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 426, "image": "kaggle_dataset/test_dataset/images/circuit_426.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 427, "image": "kaggle_dataset/test_dataset/images/circuit_427.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 428, "image": "kaggle_dataset/test_dataset/images/circuit_428.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 429, "image": "kaggle_dataset/test_dataset/images/circuit_429.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 430, "image": "kaggle_dataset/test_dataset/images/circuit_430.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 431, "image": "kaggle_dataset/test_dataset/images/circuit_431.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 432, "image": "kaggle_dataset/test_dataset/images/circuit_432.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 433, "image": "kaggle_dataset/test_dataset/images/circuit_433.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 434, "image": "kaggle_dataset/test_dataset/images/circuit_434.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 435, "image": "kaggle_dataset/test_dataset/images/circuit_435.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 436, "image": "kaggle_dataset/test_dataset/images/circuit_436.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 437, "image": "kaggle_dataset/test_dataset/images/circuit_437.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 438, "image": "kaggle_dataset/test_dataset/images/circuit_438.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 439, "image": "kaggle_dataset/test_dataset/images/circuit_439.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 440, "image": "kaggle_dataset/test_dataset/images/circuit_440.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 441, "image": "kaggle_dataset/test_dataset/images/circuit_441.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 442, "image": "kaggle_dataset/test_dataset/images/circuit_442.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 443, "image": "kaggle_dataset/test_dataset/images/circuit_443.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 444, "image": "kaggle_dataset/test_dataset/images/circuit_444.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 445, "image": "kaggle_dataset/test_dataset/images/circuit_445.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 446, "image": "kaggle_dataset/test_dataset/images/circuit_446.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 447, "image": "kaggle_dataset/test_dataset/images/circuit_447.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True?"}
+{"index": 448, "image": "kaggle_dataset/test_dataset/images/circuit_448.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 449, "image": "kaggle_dataset/test_dataset/images/circuit_449.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 450, "image": "kaggle_dataset/test_dataset/images/circuit_450.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 451, "image": "kaggle_dataset/test_dataset/images/circuit_451.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 452, "image": "kaggle_dataset/test_dataset/images/circuit_452.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 453, "image": "kaggle_dataset/test_dataset/images/circuit_453.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 454, "image": "kaggle_dataset/test_dataset/images/circuit_454.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 455, "image": "kaggle_dataset/test_dataset/images/circuit_455.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 456, "image": "kaggle_dataset/test_dataset/images/circuit_456.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 457, "image": "kaggle_dataset/test_dataset/images/circuit_457.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 458, "image": "kaggle_dataset/test_dataset/images/circuit_458.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 459, "image": "kaggle_dataset/test_dataset/images/circuit_459.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True?"}
+{"index": 460, "image": "kaggle_dataset/test_dataset/images/circuit_460.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 461, "image": "kaggle_dataset/test_dataset/images/circuit_461.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 462, "image": "kaggle_dataset/test_dataset/images/circuit_462.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 463, "image": "kaggle_dataset/test_dataset/images/circuit_463.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 464, "image": "kaggle_dataset/test_dataset/images/circuit_464.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 465, "image": "kaggle_dataset/test_dataset/images/circuit_465.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 466, "image": "kaggle_dataset/test_dataset/images/circuit_466.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 467, "image": "kaggle_dataset/test_dataset/images/circuit_467.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 468, "image": "kaggle_dataset/test_dataset/images/circuit_468.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 469, "image": "kaggle_dataset/test_dataset/images/circuit_469.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 470, "image": "kaggle_dataset/test_dataset/images/circuit_470.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 471, "image": "kaggle_dataset/test_dataset/images/circuit_471.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 472, "image": "kaggle_dataset/test_dataset/images/circuit_472.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 473, "image": "kaggle_dataset/test_dataset/images/circuit_473.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 474, "image": "kaggle_dataset/test_dataset/images/circuit_474.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 475, "image": "kaggle_dataset/test_dataset/images/circuit_475.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 476, "image": "kaggle_dataset/test_dataset/images/circuit_476.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 477, "image": "kaggle_dataset/test_dataset/images/circuit_477.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 478, "image": "kaggle_dataset/test_dataset/images/circuit_478.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 479, "image": "kaggle_dataset/test_dataset/images/circuit_479.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 480, "image": "kaggle_dataset/test_dataset/images/circuit_480.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 481, "image": "kaggle_dataset/test_dataset/images/circuit_481.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 482, "image": "kaggle_dataset/test_dataset/images/circuit_482.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 483, "image": "kaggle_dataset/test_dataset/images/circuit_483.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 484, "image": "kaggle_dataset/test_dataset/images/circuit_484.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 485, "image": "kaggle_dataset/test_dataset/images/circuit_485.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 486, "image": "kaggle_dataset/test_dataset/images/circuit_486.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 487, "image": "kaggle_dataset/test_dataset/images/circuit_487.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 488, "image": "kaggle_dataset/test_dataset/images/circuit_488.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 489, "image": "kaggle_dataset/test_dataset/images/circuit_489.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 490, "image": "kaggle_dataset/test_dataset/images/circuit_490.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True?"}
+{"index": 491, "image": "kaggle_dataset/test_dataset/images/circuit_491.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 492, "image": "kaggle_dataset/test_dataset/images/circuit_492.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 493, "image": "kaggle_dataset/test_dataset/images/circuit_493.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 494, "image": "kaggle_dataset/test_dataset/images/circuit_494.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 495, "image": "kaggle_dataset/test_dataset/images/circuit_495.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 496, "image": "kaggle_dataset/test_dataset/images/circuit_496.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 497, "image": "kaggle_dataset/test_dataset/images/circuit_497.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 498, "image": "kaggle_dataset/test_dataset/images/circuit_498.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 499, "image": "kaggle_dataset/test_dataset/images/circuit_499.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 500, "image": "kaggle_dataset/test_dataset/images/circuit_500.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 501, "image": "kaggle_dataset/test_dataset/images/circuit_501.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 502, "image": "kaggle_dataset/test_dataset/images/circuit_502.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 503, "image": "kaggle_dataset/test_dataset/images/circuit_503.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 504, "image": "kaggle_dataset/test_dataset/images/circuit_504.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 505, "image": "kaggle_dataset/test_dataset/images/circuit_505.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 506, "image": "kaggle_dataset/test_dataset/images/circuit_506.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 507, "image": "kaggle_dataset/test_dataset/images/circuit_507.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 508, "image": "kaggle_dataset/test_dataset/images/circuit_508.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 509, "image": "kaggle_dataset/test_dataset/images/circuit_509.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 510, "image": "kaggle_dataset/test_dataset/images/circuit_510.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 511, "image": "kaggle_dataset/test_dataset/images/circuit_511.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 512, "image": "kaggle_dataset/test_dataset/images/circuit_512.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 513, "image": "kaggle_dataset/test_dataset/images/circuit_513.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 514, "image": "kaggle_dataset/test_dataset/images/circuit_514.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 515, "image": "kaggle_dataset/test_dataset/images/circuit_515.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 516, "image": "kaggle_dataset/test_dataset/images/circuit_516.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 517, "image": "kaggle_dataset/test_dataset/images/circuit_517.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 518, "image": "kaggle_dataset/test_dataset/images/circuit_518.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 519, "image": "kaggle_dataset/test_dataset/images/circuit_519.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 520, "image": "kaggle_dataset/test_dataset/images/circuit_520.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 521, "image": "kaggle_dataset/test_dataset/images/circuit_521.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 522, "image": "kaggle_dataset/test_dataset/images/circuit_522.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 523, "image": "kaggle_dataset/test_dataset/images/circuit_523.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 524, "image": "kaggle_dataset/test_dataset/images/circuit_524.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 525, "image": "kaggle_dataset/test_dataset/images/circuit_525.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 526, "image": "kaggle_dataset/test_dataset/images/circuit_526.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 527, "image": "kaggle_dataset/test_dataset/images/circuit_527.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 528, "image": "kaggle_dataset/test_dataset/images/circuit_528.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 529, "image": "kaggle_dataset/test_dataset/images/circuit_529.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 530, "image": "kaggle_dataset/test_dataset/images/circuit_530.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 531, "image": "kaggle_dataset/test_dataset/images/circuit_531.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 532, "image": "kaggle_dataset/test_dataset/images/circuit_532.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 533, "image": "kaggle_dataset/test_dataset/images/circuit_533.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 534, "image": "kaggle_dataset/test_dataset/images/circuit_534.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 535, "image": "kaggle_dataset/test_dataset/images/circuit_535.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 536, "image": "kaggle_dataset/test_dataset/images/circuit_536.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 537, "image": "kaggle_dataset/test_dataset/images/circuit_537.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 538, "image": "kaggle_dataset/test_dataset/images/circuit_538.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 539, "image": "kaggle_dataset/test_dataset/images/circuit_539.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 540, "image": "kaggle_dataset/test_dataset/images/circuit_540.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 541, "image": "kaggle_dataset/test_dataset/images/circuit_541.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 542, "image": "kaggle_dataset/test_dataset/images/circuit_542.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 543, "image": "kaggle_dataset/test_dataset/images/circuit_543.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 544, "image": "kaggle_dataset/test_dataset/images/circuit_544.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 545, "image": "kaggle_dataset/test_dataset/images/circuit_545.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 546, "image": "kaggle_dataset/test_dataset/images/circuit_546.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 547, "image": "kaggle_dataset/test_dataset/images/circuit_547.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 548, "image": "kaggle_dataset/test_dataset/images/circuit_548.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 549, "image": "kaggle_dataset/test_dataset/images/circuit_549.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 550, "image": "kaggle_dataset/test_dataset/images/circuit_550.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 551, "image": "kaggle_dataset/test_dataset/images/circuit_551.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 552, "image": "kaggle_dataset/test_dataset/images/circuit_552.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 553, "image": "kaggle_dataset/test_dataset/images/circuit_553.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 554, "image": "kaggle_dataset/test_dataset/images/circuit_554.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 555, "image": "kaggle_dataset/test_dataset/images/circuit_555.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 556, "image": "kaggle_dataset/test_dataset/images/circuit_556.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 557, "image": "kaggle_dataset/test_dataset/images/circuit_557.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 558, "image": "kaggle_dataset/test_dataset/images/circuit_558.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 559, "image": "kaggle_dataset/test_dataset/images/circuit_559.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 560, "image": "kaggle_dataset/test_dataset/images/circuit_560.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 561, "image": "kaggle_dataset/test_dataset/images/circuit_561.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 562, "image": "kaggle_dataset/test_dataset/images/circuit_562.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 563, "image": "kaggle_dataset/test_dataset/images/circuit_563.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=True?"}
+{"index": 564, "image": "kaggle_dataset/test_dataset/images/circuit_564.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 565, "image": "kaggle_dataset/test_dataset/images/circuit_565.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 566, "image": "kaggle_dataset/test_dataset/images/circuit_566.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 567, "image": "kaggle_dataset/test_dataset/images/circuit_567.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 568, "image": "kaggle_dataset/test_dataset/images/circuit_568.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 569, "image": "kaggle_dataset/test_dataset/images/circuit_569.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 570, "image": "kaggle_dataset/test_dataset/images/circuit_570.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 571, "image": "kaggle_dataset/test_dataset/images/circuit_571.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 572, "image": "kaggle_dataset/test_dataset/images/circuit_572.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 573, "image": "kaggle_dataset/test_dataset/images/circuit_573.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 574, "image": "kaggle_dataset/test_dataset/images/circuit_574.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 575, "image": "kaggle_dataset/test_dataset/images/circuit_575.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 576, "image": "kaggle_dataset/test_dataset/images/circuit_576.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 577, "image": "kaggle_dataset/test_dataset/images/circuit_577.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 578, "image": "kaggle_dataset/test_dataset/images/circuit_578.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 579, "image": "kaggle_dataset/test_dataset/images/circuit_579.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 580, "image": "kaggle_dataset/test_dataset/images/circuit_580.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 581, "image": "kaggle_dataset/test_dataset/images/circuit_581.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 582, "image": "kaggle_dataset/test_dataset/images/circuit_582.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 583, "image": "kaggle_dataset/test_dataset/images/circuit_583.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 584, "image": "kaggle_dataset/test_dataset/images/circuit_584.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 585, "image": "kaggle_dataset/test_dataset/images/circuit_585.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 586, "image": "kaggle_dataset/test_dataset/images/circuit_586.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 587, "image": "kaggle_dataset/test_dataset/images/circuit_587.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 588, "image": "kaggle_dataset/test_dataset/images/circuit_588.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 589, "image": "kaggle_dataset/test_dataset/images/circuit_589.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 590, "image": "kaggle_dataset/test_dataset/images/circuit_590.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 591, "image": "kaggle_dataset/test_dataset/images/circuit_591.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 592, "image": "kaggle_dataset/test_dataset/images/circuit_592.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 593, "image": "kaggle_dataset/test_dataset/images/circuit_593.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 594, "image": "kaggle_dataset/test_dataset/images/circuit_594.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 595, "image": "kaggle_dataset/test_dataset/images/circuit_595.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 596, "image": "kaggle_dataset/test_dataset/images/circuit_596.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 597, "image": "kaggle_dataset/test_dataset/images/circuit_597.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 598, "image": "kaggle_dataset/test_dataset/images/circuit_598.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 599, "image": "kaggle_dataset/test_dataset/images/circuit_599.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 600, "image": "kaggle_dataset/test_dataset/images/circuit_600.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 601, "image": "kaggle_dataset/test_dataset/images/circuit_601.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 602, "image": "kaggle_dataset/test_dataset/images/circuit_602.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 603, "image": "kaggle_dataset/test_dataset/images/circuit_603.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 604, "image": "kaggle_dataset/test_dataset/images/circuit_604.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 605, "image": "kaggle_dataset/test_dataset/images/circuit_605.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 606, "image": "kaggle_dataset/test_dataset/images/circuit_606.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 607, "image": "kaggle_dataset/test_dataset/images/circuit_607.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 608, "image": "kaggle_dataset/test_dataset/images/circuit_608.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 609, "image": "kaggle_dataset/test_dataset/images/circuit_609.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 610, "image": "kaggle_dataset/test_dataset/images/circuit_610.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 611, "image": "kaggle_dataset/test_dataset/images/circuit_611.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 612, "image": "kaggle_dataset/test_dataset/images/circuit_612.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 613, "image": "kaggle_dataset/test_dataset/images/circuit_613.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 614, "image": "kaggle_dataset/test_dataset/images/circuit_614.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 615, "image": "kaggle_dataset/test_dataset/images/circuit_615.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 616, "image": "kaggle_dataset/test_dataset/images/circuit_616.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 617, "image": "kaggle_dataset/test_dataset/images/circuit_617.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 618, "image": "kaggle_dataset/test_dataset/images/circuit_618.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 619, "image": "kaggle_dataset/test_dataset/images/circuit_619.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 620, "image": "kaggle_dataset/test_dataset/images/circuit_620.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 621, "image": "kaggle_dataset/test_dataset/images/circuit_621.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 622, "image": "kaggle_dataset/test_dataset/images/circuit_622.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 623, "image": "kaggle_dataset/test_dataset/images/circuit_623.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 624, "image": "kaggle_dataset/test_dataset/images/circuit_624.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 625, "image": "kaggle_dataset/test_dataset/images/circuit_625.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 626, "image": "kaggle_dataset/test_dataset/images/circuit_626.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 627, "image": "kaggle_dataset/test_dataset/images/circuit_627.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 628, "image": "kaggle_dataset/test_dataset/images/circuit_628.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 629, "image": "kaggle_dataset/test_dataset/images/circuit_629.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 630, "image": "kaggle_dataset/test_dataset/images/circuit_630.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 631, "image": "kaggle_dataset/test_dataset/images/circuit_631.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 632, "image": "kaggle_dataset/test_dataset/images/circuit_632.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 633, "image": "kaggle_dataset/test_dataset/images/circuit_633.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 634, "image": "kaggle_dataset/test_dataset/images/circuit_634.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 635, "image": "kaggle_dataset/test_dataset/images/circuit_635.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 636, "image": "kaggle_dataset/test_dataset/images/circuit_636.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 637, "image": "kaggle_dataset/test_dataset/images/circuit_637.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 638, "image": "kaggle_dataset/test_dataset/images/circuit_638.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 639, "image": "kaggle_dataset/test_dataset/images/circuit_639.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 640, "image": "kaggle_dataset/test_dataset/images/circuit_640.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 641, "image": "kaggle_dataset/test_dataset/images/circuit_641.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 642, "image": "kaggle_dataset/test_dataset/images/circuit_642.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 643, "image": "kaggle_dataset/test_dataset/images/circuit_643.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 644, "image": "kaggle_dataset/test_dataset/images/circuit_644.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 645, "image": "kaggle_dataset/test_dataset/images/circuit_645.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 646, "image": "kaggle_dataset/test_dataset/images/circuit_646.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 647, "image": "kaggle_dataset/test_dataset/images/circuit_647.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 648, "image": "kaggle_dataset/test_dataset/images/circuit_648.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 649, "image": "kaggle_dataset/test_dataset/images/circuit_649.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 650, "image": "kaggle_dataset/test_dataset/images/circuit_650.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 651, "image": "kaggle_dataset/test_dataset/images/circuit_651.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 652, "image": "kaggle_dataset/test_dataset/images/circuit_652.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 653, "image": "kaggle_dataset/test_dataset/images/circuit_653.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 654, "image": "kaggle_dataset/test_dataset/images/circuit_654.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 655, "image": "kaggle_dataset/test_dataset/images/circuit_655.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 656, "image": "kaggle_dataset/test_dataset/images/circuit_656.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 657, "image": "kaggle_dataset/test_dataset/images/circuit_657.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 658, "image": "kaggle_dataset/test_dataset/images/circuit_658.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 659, "image": "kaggle_dataset/test_dataset/images/circuit_659.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 660, "image": "kaggle_dataset/test_dataset/images/circuit_660.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 661, "image": "kaggle_dataset/test_dataset/images/circuit_661.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 662, "image": "kaggle_dataset/test_dataset/images/circuit_662.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 663, "image": "kaggle_dataset/test_dataset/images/circuit_663.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 664, "image": "kaggle_dataset/test_dataset/images/circuit_664.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 665, "image": "kaggle_dataset/test_dataset/images/circuit_665.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 666, "image": "kaggle_dataset/test_dataset/images/circuit_666.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 667, "image": "kaggle_dataset/test_dataset/images/circuit_667.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 668, "image": "kaggle_dataset/test_dataset/images/circuit_668.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 669, "image": "kaggle_dataset/test_dataset/images/circuit_669.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 670, "image": "kaggle_dataset/test_dataset/images/circuit_670.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 671, "image": "kaggle_dataset/test_dataset/images/circuit_671.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 672, "image": "kaggle_dataset/test_dataset/images/circuit_672.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 673, "image": "kaggle_dataset/test_dataset/images/circuit_673.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 674, "image": "kaggle_dataset/test_dataset/images/circuit_674.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 675, "image": "kaggle_dataset/test_dataset/images/circuit_675.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 676, "image": "kaggle_dataset/test_dataset/images/circuit_676.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 677, "image": "kaggle_dataset/test_dataset/images/circuit_677.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 678, "image": "kaggle_dataset/test_dataset/images/circuit_678.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 679, "image": "kaggle_dataset/test_dataset/images/circuit_679.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 680, "image": "kaggle_dataset/test_dataset/images/circuit_680.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 681, "image": "kaggle_dataset/test_dataset/images/circuit_681.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 682, "image": "kaggle_dataset/test_dataset/images/circuit_682.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 683, "image": "kaggle_dataset/test_dataset/images/circuit_683.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 684, "image": "kaggle_dataset/test_dataset/images/circuit_684.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 685, "image": "kaggle_dataset/test_dataset/images/circuit_685.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 686, "image": "kaggle_dataset/test_dataset/images/circuit_686.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 687, "image": "kaggle_dataset/test_dataset/images/circuit_687.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 688, "image": "kaggle_dataset/test_dataset/images/circuit_688.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 689, "image": "kaggle_dataset/test_dataset/images/circuit_689.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 690, "image": "kaggle_dataset/test_dataset/images/circuit_690.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 691, "image": "kaggle_dataset/test_dataset/images/circuit_691.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 692, "image": "kaggle_dataset/test_dataset/images/circuit_692.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 693, "image": "kaggle_dataset/test_dataset/images/circuit_693.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 694, "image": "kaggle_dataset/test_dataset/images/circuit_694.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=True?"}
+{"index": 695, "image": "kaggle_dataset/test_dataset/images/circuit_695.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 696, "image": "kaggle_dataset/test_dataset/images/circuit_696.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 697, "image": "kaggle_dataset/test_dataset/images/circuit_697.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 698, "image": "kaggle_dataset/test_dataset/images/circuit_698.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 699, "image": "kaggle_dataset/test_dataset/images/circuit_699.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 700, "image": "kaggle_dataset/test_dataset/images/circuit_700.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=False?"}
+{"index": 701, "image": "kaggle_dataset/test_dataset/images/circuit_701.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 702, "image": "kaggle_dataset/test_dataset/images/circuit_702.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True, x9=False?"}
+{"index": 703, "image": "kaggle_dataset/test_dataset/images/circuit_703.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 704, "image": "kaggle_dataset/test_dataset/images/circuit_704.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 705, "image": "kaggle_dataset/test_dataset/images/circuit_705.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 706, "image": "kaggle_dataset/test_dataset/images/circuit_706.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 707, "image": "kaggle_dataset/test_dataset/images/circuit_707.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 708, "image": "kaggle_dataset/test_dataset/images/circuit_708.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 709, "image": "kaggle_dataset/test_dataset/images/circuit_709.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 710, "image": "kaggle_dataset/test_dataset/images/circuit_710.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 711, "image": "kaggle_dataset/test_dataset/images/circuit_711.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False?"}
+{"index": 712, "image": "kaggle_dataset/test_dataset/images/circuit_712.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 713, "image": "kaggle_dataset/test_dataset/images/circuit_713.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 714, "image": "kaggle_dataset/test_dataset/images/circuit_714.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 715, "image": "kaggle_dataset/test_dataset/images/circuit_715.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 716, "image": "kaggle_dataset/test_dataset/images/circuit_716.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 717, "image": "kaggle_dataset/test_dataset/images/circuit_717.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 718, "image": "kaggle_dataset/test_dataset/images/circuit_718.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 719, "image": "kaggle_dataset/test_dataset/images/circuit_719.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 720, "image": "kaggle_dataset/test_dataset/images/circuit_720.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 721, "image": "kaggle_dataset/test_dataset/images/circuit_721.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 722, "image": "kaggle_dataset/test_dataset/images/circuit_722.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 723, "image": "kaggle_dataset/test_dataset/images/circuit_723.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 724, "image": "kaggle_dataset/test_dataset/images/circuit_724.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 725, "image": "kaggle_dataset/test_dataset/images/circuit_725.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 726, "image": "kaggle_dataset/test_dataset/images/circuit_726.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 727, "image": "kaggle_dataset/test_dataset/images/circuit_727.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 728, "image": "kaggle_dataset/test_dataset/images/circuit_728.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 729, "image": "kaggle_dataset/test_dataset/images/circuit_729.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 730, "image": "kaggle_dataset/test_dataset/images/circuit_730.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 731, "image": "kaggle_dataset/test_dataset/images/circuit_731.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 732, "image": "kaggle_dataset/test_dataset/images/circuit_732.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 733, "image": "kaggle_dataset/test_dataset/images/circuit_733.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 734, "image": "kaggle_dataset/test_dataset/images/circuit_734.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 735, "image": "kaggle_dataset/test_dataset/images/circuit_735.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 736, "image": "kaggle_dataset/test_dataset/images/circuit_736.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 737, "image": "kaggle_dataset/test_dataset/images/circuit_737.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 738, "image": "kaggle_dataset/test_dataset/images/circuit_738.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True?"}
+{"index": 739, "image": "kaggle_dataset/test_dataset/images/circuit_739.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 740, "image": "kaggle_dataset/test_dataset/images/circuit_740.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False?"}
+{"index": 741, "image": "kaggle_dataset/test_dataset/images/circuit_741.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 742, "image": "kaggle_dataset/test_dataset/images/circuit_742.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False?"}
+{"index": 743, "image": "kaggle_dataset/test_dataset/images/circuit_743.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 744, "image": "kaggle_dataset/test_dataset/images/circuit_744.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 745, "image": "kaggle_dataset/test_dataset/images/circuit_745.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 746, "image": "kaggle_dataset/test_dataset/images/circuit_746.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 747, "image": "kaggle_dataset/test_dataset/images/circuit_747.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 748, "image": "kaggle_dataset/test_dataset/images/circuit_748.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 749, "image": "kaggle_dataset/test_dataset/images/circuit_749.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 750, "image": "kaggle_dataset/test_dataset/images/circuit_750.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 751, "image": "kaggle_dataset/test_dataset/images/circuit_751.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 752, "image": "kaggle_dataset/test_dataset/images/circuit_752.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 753, "image": "kaggle_dataset/test_dataset/images/circuit_753.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 754, "image": "kaggle_dataset/test_dataset/images/circuit_754.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False?"}
+{"index": 755, "image": "kaggle_dataset/test_dataset/images/circuit_755.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 756, "image": "kaggle_dataset/test_dataset/images/circuit_756.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 757, "image": "kaggle_dataset/test_dataset/images/circuit_757.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 758, "image": "kaggle_dataset/test_dataset/images/circuit_758.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 759, "image": "kaggle_dataset/test_dataset/images/circuit_759.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 760, "image": "kaggle_dataset/test_dataset/images/circuit_760.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 761, "image": "kaggle_dataset/test_dataset/images/circuit_761.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 762, "image": "kaggle_dataset/test_dataset/images/circuit_762.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False?"}
+{"index": 763, "image": "kaggle_dataset/test_dataset/images/circuit_763.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 764, "image": "kaggle_dataset/test_dataset/images/circuit_764.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 765, "image": "kaggle_dataset/test_dataset/images/circuit_765.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 766, "image": "kaggle_dataset/test_dataset/images/circuit_766.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 767, "image": "kaggle_dataset/test_dataset/images/circuit_767.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 768, "image": "kaggle_dataset/test_dataset/images/circuit_768.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 769, "image": "kaggle_dataset/test_dataset/images/circuit_769.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 770, "image": "kaggle_dataset/test_dataset/images/circuit_770.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False?"}
+{"index": 771, "image": "kaggle_dataset/test_dataset/images/circuit_771.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=False?"}
+{"index": 772, "image": "kaggle_dataset/test_dataset/images/circuit_772.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 773, "image": "kaggle_dataset/test_dataset/images/circuit_773.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 774, "image": "kaggle_dataset/test_dataset/images/circuit_774.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 775, "image": "kaggle_dataset/test_dataset/images/circuit_775.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 776, "image": "kaggle_dataset/test_dataset/images/circuit_776.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 777, "image": "kaggle_dataset/test_dataset/images/circuit_777.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 778, "image": "kaggle_dataset/test_dataset/images/circuit_778.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 779, "image": "kaggle_dataset/test_dataset/images/circuit_779.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 780, "image": "kaggle_dataset/test_dataset/images/circuit_780.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 781, "image": "kaggle_dataset/test_dataset/images/circuit_781.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 782, "image": "kaggle_dataset/test_dataset/images/circuit_782.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 783, "image": "kaggle_dataset/test_dataset/images/circuit_783.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 784, "image": "kaggle_dataset/test_dataset/images/circuit_784.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 785, "image": "kaggle_dataset/test_dataset/images/circuit_785.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 786, "image": "kaggle_dataset/test_dataset/images/circuit_786.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 787, "image": "kaggle_dataset/test_dataset/images/circuit_787.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 788, "image": "kaggle_dataset/test_dataset/images/circuit_788.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 789, "image": "kaggle_dataset/test_dataset/images/circuit_789.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 790, "image": "kaggle_dataset/test_dataset/images/circuit_790.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=False, x8=True, x9=False, x10=True?"}
+{"index": 791, "image": "kaggle_dataset/test_dataset/images/circuit_791.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 792, "image": "kaggle_dataset/test_dataset/images/circuit_792.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 793, "image": "kaggle_dataset/test_dataset/images/circuit_793.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 794, "image": "kaggle_dataset/test_dataset/images/circuit_794.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False?"}
+{"index": 795, "image": "kaggle_dataset/test_dataset/images/circuit_795.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 796, "image": "kaggle_dataset/test_dataset/images/circuit_796.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 797, "image": "kaggle_dataset/test_dataset/images/circuit_797.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 798, "image": "kaggle_dataset/test_dataset/images/circuit_798.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 799, "image": "kaggle_dataset/test_dataset/images/circuit_799.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=True?"}
+{"index": 800, "image": "kaggle_dataset/test_dataset/images/circuit_800.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 801, "image": "kaggle_dataset/test_dataset/images/circuit_801.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 802, "image": "kaggle_dataset/test_dataset/images/circuit_802.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 803, "image": "kaggle_dataset/test_dataset/images/circuit_803.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 804, "image": "kaggle_dataset/test_dataset/images/circuit_804.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 805, "image": "kaggle_dataset/test_dataset/images/circuit_805.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 806, "image": "kaggle_dataset/test_dataset/images/circuit_806.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 807, "image": "kaggle_dataset/test_dataset/images/circuit_807.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 808, "image": "kaggle_dataset/test_dataset/images/circuit_808.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 809, "image": "kaggle_dataset/test_dataset/images/circuit_809.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 810, "image": "kaggle_dataset/test_dataset/images/circuit_810.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 811, "image": "kaggle_dataset/test_dataset/images/circuit_811.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 812, "image": "kaggle_dataset/test_dataset/images/circuit_812.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 813, "image": "kaggle_dataset/test_dataset/images/circuit_813.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 814, "image": "kaggle_dataset/test_dataset/images/circuit_814.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 815, "image": "kaggle_dataset/test_dataset/images/circuit_815.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 816, "image": "kaggle_dataset/test_dataset/images/circuit_816.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 817, "image": "kaggle_dataset/test_dataset/images/circuit_817.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 818, "image": "kaggle_dataset/test_dataset/images/circuit_818.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 819, "image": "kaggle_dataset/test_dataset/images/circuit_819.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=False, x5=True, x6=False, x7=False?"}
+{"index": 820, "image": "kaggle_dataset/test_dataset/images/circuit_820.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 821, "image": "kaggle_dataset/test_dataset/images/circuit_821.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=False, x7=True?"}
+{"index": 822, "image": "kaggle_dataset/test_dataset/images/circuit_822.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 823, "image": "kaggle_dataset/test_dataset/images/circuit_823.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 824, "image": "kaggle_dataset/test_dataset/images/circuit_824.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 825, "image": "kaggle_dataset/test_dataset/images/circuit_825.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 826, "image": "kaggle_dataset/test_dataset/images/circuit_826.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 827, "image": "kaggle_dataset/test_dataset/images/circuit_827.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 828, "image": "kaggle_dataset/test_dataset/images/circuit_828.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 829, "image": "kaggle_dataset/test_dataset/images/circuit_829.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 830, "image": "kaggle_dataset/test_dataset/images/circuit_830.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 831, "image": "kaggle_dataset/test_dataset/images/circuit_831.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 832, "image": "kaggle_dataset/test_dataset/images/circuit_832.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True, x9=False, x10=False?"}
+{"index": 833, "image": "kaggle_dataset/test_dataset/images/circuit_833.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 834, "image": "kaggle_dataset/test_dataset/images/circuit_834.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 835, "image": "kaggle_dataset/test_dataset/images/circuit_835.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 836, "image": "kaggle_dataset/test_dataset/images/circuit_836.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 837, "image": "kaggle_dataset/test_dataset/images/circuit_837.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 838, "image": "kaggle_dataset/test_dataset/images/circuit_838.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 839, "image": "kaggle_dataset/test_dataset/images/circuit_839.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 840, "image": "kaggle_dataset/test_dataset/images/circuit_840.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 841, "image": "kaggle_dataset/test_dataset/images/circuit_841.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 842, "image": "kaggle_dataset/test_dataset/images/circuit_842.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 843, "image": "kaggle_dataset/test_dataset/images/circuit_843.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 844, "image": "kaggle_dataset/test_dataset/images/circuit_844.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 845, "image": "kaggle_dataset/test_dataset/images/circuit_845.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 846, "image": "kaggle_dataset/test_dataset/images/circuit_846.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 847, "image": "kaggle_dataset/test_dataset/images/circuit_847.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 848, "image": "kaggle_dataset/test_dataset/images/circuit_848.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False?"}
+{"index": 849, "image": "kaggle_dataset/test_dataset/images/circuit_849.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True, x10=False?"}
+{"index": 850, "image": "kaggle_dataset/test_dataset/images/circuit_850.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 851, "image": "kaggle_dataset/test_dataset/images/circuit_851.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 852, "image": "kaggle_dataset/test_dataset/images/circuit_852.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=True, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 853, "image": "kaggle_dataset/test_dataset/images/circuit_853.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 854, "image": "kaggle_dataset/test_dataset/images/circuit_854.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 855, "image": "kaggle_dataset/test_dataset/images/circuit_855.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 856, "image": "kaggle_dataset/test_dataset/images/circuit_856.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True?"}
+{"index": 857, "image": "kaggle_dataset/test_dataset/images/circuit_857.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 858, "image": "kaggle_dataset/test_dataset/images/circuit_858.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 859, "image": "kaggle_dataset/test_dataset/images/circuit_859.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 860, "image": "kaggle_dataset/test_dataset/images/circuit_860.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=True, x9=True, x10=True?"}
+{"index": 861, "image": "kaggle_dataset/test_dataset/images/circuit_861.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 862, "image": "kaggle_dataset/test_dataset/images/circuit_862.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False?"}
+{"index": 863, "image": "kaggle_dataset/test_dataset/images/circuit_863.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=True, x6=True, x7=True, x8=True, x9=False, x10=True?"}
+{"index": 864, "image": "kaggle_dataset/test_dataset/images/circuit_864.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True?"}
+{"index": 865, "image": "kaggle_dataset/test_dataset/images/circuit_865.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 866, "image": "kaggle_dataset/test_dataset/images/circuit_866.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 867, "image": "kaggle_dataset/test_dataset/images/circuit_867.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 868, "image": "kaggle_dataset/test_dataset/images/circuit_868.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 869, "image": "kaggle_dataset/test_dataset/images/circuit_869.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 870, "image": "kaggle_dataset/test_dataset/images/circuit_870.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 871, "image": "kaggle_dataset/test_dataset/images/circuit_871.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 872, "image": "kaggle_dataset/test_dataset/images/circuit_872.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 873, "image": "kaggle_dataset/test_dataset/images/circuit_873.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 874, "image": "kaggle_dataset/test_dataset/images/circuit_874.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 875, "image": "kaggle_dataset/test_dataset/images/circuit_875.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 876, "image": "kaggle_dataset/test_dataset/images/circuit_876.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 877, "image": "kaggle_dataset/test_dataset/images/circuit_877.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=True, x8=True, x9=True?"}
+{"index": 878, "image": "kaggle_dataset/test_dataset/images/circuit_878.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 879, "image": "kaggle_dataset/test_dataset/images/circuit_879.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 880, "image": "kaggle_dataset/test_dataset/images/circuit_880.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 881, "image": "kaggle_dataset/test_dataset/images/circuit_881.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 882, "image": "kaggle_dataset/test_dataset/images/circuit_882.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 883, "image": "kaggle_dataset/test_dataset/images/circuit_883.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 884, "image": "kaggle_dataset/test_dataset/images/circuit_884.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 885, "image": "kaggle_dataset/test_dataset/images/circuit_885.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 886, "image": "kaggle_dataset/test_dataset/images/circuit_886.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 887, "image": "kaggle_dataset/test_dataset/images/circuit_887.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=False, x8=True?"}
+{"index": 888, "image": "kaggle_dataset/test_dataset/images/circuit_888.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=True, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 889, "image": "kaggle_dataset/test_dataset/images/circuit_889.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True?"}
+{"index": 890, "image": "kaggle_dataset/test_dataset/images/circuit_890.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 891, "image": "kaggle_dataset/test_dataset/images/circuit_891.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 892, "image": "kaggle_dataset/test_dataset/images/circuit_892.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False?"}
+{"index": 893, "image": "kaggle_dataset/test_dataset/images/circuit_893.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True?"}
+{"index": 894, "image": "kaggle_dataset/test_dataset/images/circuit_894.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 895, "image": "kaggle_dataset/test_dataset/images/circuit_895.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=True, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 896, "image": "kaggle_dataset/test_dataset/images/circuit_896.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 897, "image": "kaggle_dataset/test_dataset/images/circuit_897.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 898, "image": "kaggle_dataset/test_dataset/images/circuit_898.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 899, "image": "kaggle_dataset/test_dataset/images/circuit_899.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 900, "image": "kaggle_dataset/test_dataset/images/circuit_900.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 901, "image": "kaggle_dataset/test_dataset/images/circuit_901.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 902, "image": "kaggle_dataset/test_dataset/images/circuit_902.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 903, "image": "kaggle_dataset/test_dataset/images/circuit_903.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 904, "image": "kaggle_dataset/test_dataset/images/circuit_904.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False?"}
+{"index": 905, "image": "kaggle_dataset/test_dataset/images/circuit_905.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 906, "image": "kaggle_dataset/test_dataset/images/circuit_906.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 907, "image": "kaggle_dataset/test_dataset/images/circuit_907.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 908, "image": "kaggle_dataset/test_dataset/images/circuit_908.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 909, "image": "kaggle_dataset/test_dataset/images/circuit_909.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 910, "image": "kaggle_dataset/test_dataset/images/circuit_910.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True?"}
+{"index": 911, "image": "kaggle_dataset/test_dataset/images/circuit_911.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 912, "image": "kaggle_dataset/test_dataset/images/circuit_912.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 913, "image": "kaggle_dataset/test_dataset/images/circuit_913.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 914, "image": "kaggle_dataset/test_dataset/images/circuit_914.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=False, x8=True?"}
+{"index": 915, "image": "kaggle_dataset/test_dataset/images/circuit_915.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=True, x10=True?"}
+{"index": 916, "image": "kaggle_dataset/test_dataset/images/circuit_916.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 917, "image": "kaggle_dataset/test_dataset/images/circuit_917.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False, x9=False?"}
+{"index": 918, "image": "kaggle_dataset/test_dataset/images/circuit_918.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True, x9=True, x10=True?"}
+{"index": 919, "image": "kaggle_dataset/test_dataset/images/circuit_919.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 920, "image": "kaggle_dataset/test_dataset/images/circuit_920.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 921, "image": "kaggle_dataset/test_dataset/images/circuit_921.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 922, "image": "kaggle_dataset/test_dataset/images/circuit_922.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 923, "image": "kaggle_dataset/test_dataset/images/circuit_923.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 924, "image": "kaggle_dataset/test_dataset/images/circuit_924.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 925, "image": "kaggle_dataset/test_dataset/images/circuit_925.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=False, x5=True, x6=False, x7=True, x8=True, x9=True, x10=False?"}
+{"index": 926, "image": "kaggle_dataset/test_dataset/images/circuit_926.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False?"}
+{"index": 927, "image": "kaggle_dataset/test_dataset/images/circuit_927.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=True, x7=True, x8=False, x9=False, x10=False?"}
+{"index": 928, "image": "kaggle_dataset/test_dataset/images/circuit_928.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 929, "image": "kaggle_dataset/test_dataset/images/circuit_929.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 930, "image": "kaggle_dataset/test_dataset/images/circuit_930.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 931, "image": "kaggle_dataset/test_dataset/images/circuit_931.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=True, x5=False, x6=True, x7=True, x8=False, x9=False, x10=True?"}
+{"index": 932, "image": "kaggle_dataset/test_dataset/images/circuit_932.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 933, "image": "kaggle_dataset/test_dataset/images/circuit_933.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 934, "image": "kaggle_dataset/test_dataset/images/circuit_934.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 935, "image": "kaggle_dataset/test_dataset/images/circuit_935.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 936, "image": "kaggle_dataset/test_dataset/images/circuit_936.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=False, x5=False, x6=True, x7=True?"}
+{"index": 937, "image": "kaggle_dataset/test_dataset/images/circuit_937.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 938, "image": "kaggle_dataset/test_dataset/images/circuit_938.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 939, "image": "kaggle_dataset/test_dataset/images/circuit_939.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 940, "image": "kaggle_dataset/test_dataset/images/circuit_940.png", "question": "How many or gates are in this logic circuit?"}
+{"index": 941, "image": "kaggle_dataset/test_dataset/images/circuit_941.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 942, "image": "kaggle_dataset/test_dataset/images/circuit_942.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 943, "image": "kaggle_dataset/test_dataset/images/circuit_943.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 944, "image": "kaggle_dataset/test_dataset/images/circuit_944.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=False, x4=False, x5=False, x6=True, x7=False, x8=False, x9=False, x10=True?"}
+{"index": 945, "image": "kaggle_dataset/test_dataset/images/circuit_945.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 946, "image": "kaggle_dataset/test_dataset/images/circuit_946.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 947, "image": "kaggle_dataset/test_dataset/images/circuit_947.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 948, "image": "kaggle_dataset/test_dataset/images/circuit_948.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=True, x6=True, x7=False, x8=False, x9=False, x10=False?"}
+{"index": 949, "image": "kaggle_dataset/test_dataset/images/circuit_949.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 950, "image": "kaggle_dataset/test_dataset/images/circuit_950.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 951, "image": "kaggle_dataset/test_dataset/images/circuit_951.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 952, "image": "kaggle_dataset/test_dataset/images/circuit_952.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=False, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 953, "image": "kaggle_dataset/test_dataset/images/circuit_953.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=True, x3=True, x4=True, x5=True, x6=False, x7=True, x8=True?"}
+{"index": 954, "image": "kaggle_dataset/test_dataset/images/circuit_954.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 955, "image": "kaggle_dataset/test_dataset/images/circuit_955.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 956, "image": "kaggle_dataset/test_dataset/images/circuit_956.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=False, x4=False, x5=True, x6=False, x7=False, x8=False?"}
+{"index": 957, "image": "kaggle_dataset/test_dataset/images/circuit_957.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=False?"}
+{"index": 958, "image": "kaggle_dataset/test_dataset/images/circuit_958.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 959, "image": "kaggle_dataset/test_dataset/images/circuit_959.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 960, "image": "kaggle_dataset/test_dataset/images/circuit_960.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 961, "image": "kaggle_dataset/test_dataset/images/circuit_961.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 962, "image": "kaggle_dataset/test_dataset/images/circuit_962.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=False, x5=False, x6=False, x7=True, x8=False, x9=False?"}
+{"index": 963, "image": "kaggle_dataset/test_dataset/images/circuit_963.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=True, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 964, "image": "kaggle_dataset/test_dataset/images/circuit_964.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=False, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 965, "image": "kaggle_dataset/test_dataset/images/circuit_965.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=False, x6=False, x7=True, x8=False, x9=True?"}
+{"index": 966, "image": "kaggle_dataset/test_dataset/images/circuit_966.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 967, "image": "kaggle_dataset/test_dataset/images/circuit_967.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 968, "image": "kaggle_dataset/test_dataset/images/circuit_968.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=True, x7=True?"}
+{"index": 969, "image": "kaggle_dataset/test_dataset/images/circuit_969.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 970, "image": "kaggle_dataset/test_dataset/images/circuit_970.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 971, "image": "kaggle_dataset/test_dataset/images/circuit_971.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=False, x6=False, x7=False, x8=True?"}
+{"index": 972, "image": "kaggle_dataset/test_dataset/images/circuit_972.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=True, x4=True, x5=False, x6=False, x7=True?"}
+{"index": 973, "image": "kaggle_dataset/test_dataset/images/circuit_973.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=True, x4=True, x5=False, x6=False, x7=False, x8=False?"}
+{"index": 974, "image": "kaggle_dataset/test_dataset/images/circuit_974.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 975, "image": "kaggle_dataset/test_dataset/images/circuit_975.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 976, "image": "kaggle_dataset/test_dataset/images/circuit_976.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 977, "image": "kaggle_dataset/test_dataset/images/circuit_977.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=True, x3=False, x4=True, x5=False, x6=False, x7=False?"}
+{"index": 978, "image": "kaggle_dataset/test_dataset/images/circuit_978.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=True, x3=False, x4=True, x5=False, x6=False, x7=True, x8=True, x9=False, x10=False?"}
+{"index": 979, "image": "kaggle_dataset/test_dataset/images/circuit_979.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 980, "image": "kaggle_dataset/test_dataset/images/circuit_980.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 981, "image": "kaggle_dataset/test_dataset/images/circuit_981.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 982, "image": "kaggle_dataset/test_dataset/images/circuit_982.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 983, "image": "kaggle_dataset/test_dataset/images/circuit_983.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 984, "image": "kaggle_dataset/test_dataset/images/circuit_984.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 985, "image": "kaggle_dataset/test_dataset/images/circuit_985.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 986, "image": "kaggle_dataset/test_dataset/images/circuit_986.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False?"}
+{"index": 987, "image": "kaggle_dataset/test_dataset/images/circuit_987.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=False, x2=False, x3=False, x4=True, x5=True, x6=False, x7=True?"}
+{"index": 988, "image": "kaggle_dataset/test_dataset/images/circuit_988.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=False, x2=False, x3=True, x4=False, x5=True, x6=False, x7=True, x8=False?"}
+{"index": 989, "image": "kaggle_dataset/test_dataset/images/circuit_989.png", "question": "What is the output of this logic circuit, given the inputs x0=True, x1=True, x2=False, x3=True, x4=True, x5=True, x6=True, x7=False, x8=True, x9=True, x10=False?"}
+{"index": 990, "image": "kaggle_dataset/test_dataset/images/circuit_990.png", "question": "How many not gates are in this logic circuit?"}
+{"index": 991, "image": "kaggle_dataset/test_dataset/images/circuit_991.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 992, "image": "kaggle_dataset/test_dataset/images/circuit_992.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=True, x3=False, x4=False, x5=False, x6=True, x7=True, x8=False, x9=True, x10=False?"}
+{"index": 993, "image": "kaggle_dataset/test_dataset/images/circuit_993.png", "question": "How many nor gates are in this logic circuit?"}
+{"index": 994, "image": "kaggle_dataset/test_dataset/images/circuit_994.png", "question": "How many xnor gates are in this logic circuit?"}
+{"index": 995, "image": "kaggle_dataset/test_dataset/images/circuit_995.png", "question": "How many xor gates are in this logic circuit?"}
+{"index": 996, "image": "kaggle_dataset/test_dataset/images/circuit_996.png", "question": "How many and gates are in this logic circuit?"}
+{"index": 997, "image": "kaggle_dataset/test_dataset/images/circuit_997.png", "question": "What is the output of this logic circuit, given the inputs x0=False, x1=True, x2=False, x3=True, x4=False, x5=True, x6=True, x7=False, x8=False, x9=True?"}
+{"index": 998, "image": "kaggle_dataset/test_dataset/images/circuit_998.png", "question": "How many nand gates are in this logic circuit?"}
+{"index": 999, "image": "kaggle_dataset/test_dataset/images/circuit_999.png", "question": "How many xor gates are in this logic circuit?"}

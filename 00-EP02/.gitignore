@@ -1,0 +1,4 @@
+# Checkpoints de inferência e adapters LoRA — pesados e reprodutíveis.
+# As submissões finais podem ser commitadas à mão se quiser versioná-las.
+output/checkpoints/
+output/models/

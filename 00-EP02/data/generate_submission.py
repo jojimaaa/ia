@@ -1,13 +1,17 @@
 """
-Roda inferência do modelo fine-tuned (base + adapter LoRA) no test set e
-gera output/submissions/submission.csv.
+Roda inferência do modelo fine-tuned (base + adapter LoRA) no test set e gera
+output/submissions/submission_lora.csv.
+
+Antes de submeter, mede a acurácia na validação — se o número não fizer sentido,
+não gasta 1.000 inferências no teste.
 
 Uso:
-    uv run python models/infer_submission.py
+    uv run python data/generate_submission.py            # val + test
+    uv run python data/generate_submission.py --val-only # só valida
 """
 
-import json
-import re
+import argparse
+import sys
 from pathlib import Path
 
 import torch
@@ -15,11 +19,26 @@ from PIL import Image
 from peft import PeftModel
 from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from vqa import (  # noqa: E402
+    CHECKPOINT_DIR,
+    ROOT,
+    SUBMISSION_DIR,
+    TEST_JSONL,
+    VAL_JSONL,
+    clean_answer,
+    format_score,
+    load_jsonl,
+    majority_answer,
+    question_kind,
+    run_predictions,
+    score,
+    write_submission,
+)
+
 BASE_MODEL_ID = "Qwen/Qwen2-VL-2B-Instruct"
 ADAPTER_DIR = ROOT / "output" / "models" / "qwen" / "lora_adapter"
-TEST_JSONL = ROOT / "data" / "processed" / "test.jsonl"
-SUBMISSION_PATH = ROOT / "output" / "submissions" / "submission.csv"
 
 SYSTEM_PROMPT = (
     "You are an expert in digital logic circuits. Answer the question about "
@@ -29,27 +48,10 @@ SYSTEM_PROMPT = (
 
 MIN_PIXELS = 256 * 28 * 28
 MAX_PIXELS = 512 * 28 * 28
+MAX_NEW_TOKENS = 8
 
 
-def load_jsonl(path: Path) -> list[dict]:
-    with path.open(encoding="utf-8") as f:
-        return [json.loads(line) for line in f if line.strip()]
-
-
-def clean_answer(text: str) -> str:
-    """Extrai só o token relevante (True/False/dígito) da geração do modelo."""
-    match = re.search(r"\b(True|False|[0-9])\b", text.strip(), re.IGNORECASE)
-    if not match:
-        return text.strip()
-    token = match.group(1)
-    if token.lower() == "true":
-        return "True"
-    if token.lower() == "false":
-        return "False"
-    return token
-
-
-def main() -> None:
+def load_model():
     processor = AutoProcessor.from_pretrained(
         BASE_MODEL_ID, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
     )
@@ -58,46 +60,72 @@ def main() -> None:
     )
     model = PeftModel.from_pretrained(base_model, ADAPTER_DIR)
     model.eval()
+    return model, processor
 
-    test_items = load_jsonl(TEST_JSONL)
 
-    SUBMISSION_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with SUBMISSION_PATH.open("w", encoding="utf-8") as out_f:
-        out_f.write("index,answer\n")
-        for ex in test_items:
-            image = Image.open(ROOT / ex["image"]).convert("RGB")
-            conversation = [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image"},
-                        {"type": "text", "text": ex["question"]},
-                    ],
-                },
-            ]
-            text = processor.apply_chat_template(
-                conversation, tokenize=False, add_generation_prompt=True
-            )
-            inputs = processor(text=[text], images=[image], return_tensors="pt").to(
-                model.device
-            )
+def make_predictor(model, processor):
+    def predict(item: dict) -> dict:
+        image = Image.open(ROOT / item["image"]).convert("RGB")
+        conversation = [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image"},
+                    {"type": "text", "text": item["question"]},
+                ],
+            },
+        ]
+        text = processor.apply_chat_template(
+            conversation, tokenize=False, add_generation_prompt=True
+        )
+        inputs = processor(text=[text], images=[image], return_tensors="pt").to(
+            model.device
+        )
 
-            with torch.no_grad():
-                generated_ids = model.generate(**inputs, max_new_tokens=8)
+        with torch.no_grad():
+            generated_ids = model.generate(**inputs, max_new_tokens=MAX_NEW_TOKENS)
 
-            generated_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
-            output_text = processor.batch_decode(
-                generated_trimmed, skip_special_tokens=True
-            )[0]
+        trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
+        raw = processor.batch_decode(trimmed, skip_special_tokens=True)[0]
 
-            answer = clean_answer(output_text)
-            out_f.write(f"{ex['index']},{answer}\n")
+        kind = question_kind(item["question"])
+        return {
+            "raw": raw,
+            "answer": clean_answer(
+                raw,
+                kind=kind,
+                question=item["question"],
+                default=majority_answer(kind),
+            ),
+            "new_tokens": int(trimmed.shape[1]),
+        }
 
-            if ex["index"] % 100 == 0:
-                print(f"[{ex['index']}] {ex['question']} -> {answer}")
+    return predict
 
-    print(f"Submissão salva em {SUBMISSION_PATH}")
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--val-only", action="store_true")
+    args = parser.parse_args()
+
+    model, processor = load_model()
+    predict = make_predictor(model, processor)
+
+    val = load_jsonl(VAL_JSONL)
+    val_preds = run_predictions(
+        val, predict, CHECKPOINT_DIR / "exp6_lora_val.jsonl", desc="exp6 LoRA (val)"
+    )
+    print(format_score(score(val_preds, val), "val — QLoRA fine-tuned"))
+
+    if args.val_only:
+        return
+
+    test = load_jsonl(TEST_JSONL)
+    test_preds = run_predictions(
+        test, predict, CHECKPOINT_DIR / "exp6_lora_test.jsonl", desc="exp6 LoRA (test)"
+    )
+    write_submission(test_preds, SUBMISSION_DIR / "submission_lora.csv")
 
 
 if __name__ == "__main__":

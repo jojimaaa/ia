@@ -2,3 +2,4 @@
 # As submissões finais podem ser commitadas à mão se quiser versioná-las.
 output/checkpoints/
 output/models/
+output/submissions/*_dry.csv

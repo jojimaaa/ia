@@ -93,7 +93,20 @@ class QwenBackend:
                 device_map="auto" if cuda else None,
             )
         self.model.eval()
-        print(f"modelo carregado: {model_id} ({'CUDA 4-bit' if cuda and four_bit else 'CPU float32'})")
+
+        # Procedência, gravada em todo registro de checkpoint. 4-bit e float32
+        # dão respostas diferentes; sem isso a mistura passa em silêncio.
+        if cuda:
+            self.tag = "cuda-4bit" if four_bit else "cuda-bf16"
+        else:
+            self.tag = "cpu-fp32"
+
+        if not cuda:
+            print(
+                "AVISO: CUDA indisponível — rodando em CPU float32, ordem de "
+                "minuto por item. No Colab: Runtime > Change runtime type > T4 GPU."
+            )
+        print(f"modelo carregado: {model_id} ({self.tag})")
 
     @staticmethod
     def _resolve_model_class():
@@ -178,6 +191,8 @@ class DryBackend:
     A acurácia resultante é aleatória — o objetivo é exercitar o encanamento,
     não medir qualidade.
     """
+
+    tag = "dry"
 
     def __init__(self) -> None:
         self.calls = 0

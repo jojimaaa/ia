@@ -253,11 +253,17 @@ def load_checkpoint(path: Path | str) -> dict[int, dict]:
     return done
 
 
+class MixedBackendError(RuntimeError):
+    """Checkpoint com registros de backends diferentes."""
+
+
 def run_predictions(
     items: Sequence[dict],
     predict: Callable[[dict], dict],
     checkpoint_path: Path | str,
     desc: str = "inferência",
+    meta: dict | None = None,
+    allow_mixed_backend: bool = False,
 ) -> list[dict]:
     """Roda `predict` em cada item, pulando o que já está no checkpoint.
 
@@ -265,6 +271,12 @@ def run_predictions(
     "raw" (geração bruta) e o que mais o experimento quiser registrar. Cada
     resultado é gravado e o buffer esvaziado na hora, então uma queda de sessão
     do Colab custa no máximo um item.
+
+    `meta` entra em todo registro novo — serve para gravar a procedência
+    (backend, dispositivo, quantização). Retomar um checkpoint com backend
+    diferente do atual levanta MixedBackendError: 4-bit NF4 e float32 dão
+    respostas diferentes mesmo com decodificação greedy, então metade de cada
+    produziria uma acurácia que não corresponde a nenhuma configuração real.
     """
     checkpoint_path = Path(checkpoint_path)
     checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
@@ -274,6 +286,20 @@ def run_predictions(
     if done:
         print(f"{desc}: {len(done)} já no checkpoint, {len(pending)} restando")
 
+    current = (meta or {}).get("backend")
+    if current and done and not allow_mixed_backend:
+        seen = {r["backend"] for r in done.values() if "backend" in r}
+        others = seen - {current}
+        if others:
+            raise MixedBackendError(
+                f"{checkpoint_path} tem registros gerados em {sorted(others)} "
+                f"e agora o backend é {current!r}.\n"
+                "Misturar quantizações na mesma medição invalida a comparação "
+                "entre as técnicas.\n"
+                f"Apague o checkpoint e rode de novo, ou passe "
+                f"--allow-mixed-backend se souber o que está fazendo."
+            )
+
     with checkpoint_path.open("a", encoding="utf-8") as f:
         for item in _progress(pending, desc, total=len(pending)):
             started = time.perf_counter()
@@ -282,6 +308,7 @@ def run_predictions(
                 "index": item["index"],
                 "question": item["question"],
                 "elapsed_s": round(time.perf_counter() - started, 4),
+                **(meta or {}),
                 **result,
             }
             f.write(json.dumps(record, ensure_ascii=False) + "\n")

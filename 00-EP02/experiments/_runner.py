@@ -66,6 +66,8 @@ def build_argparser(description: str) -> argparse.ArgumentParser:
     p.add_argument("--model-id", default=None)
     p.add_argument("--no-4bit", action="store_true",
                    help="carrega sem quantização (mais VRAM)")
+    p.add_argument("--allow-mixed-backend", action="store_true",
+                   help="retoma checkpoint gerado em outro backend (invalida a comparação)")
     return p
 
 
@@ -118,12 +120,16 @@ def run_experiment(
     backend = load_backend(**kwargs)
     predict = make_predict(backend)
 
+    meta = {"backend": backend.tag}
+
     eval_items, tag = resolve_eval_items(args)
     eval_preds = run_predictions(
         eval_items,
         predict,
         CHECKPOINT_DIR / f"{name}_{tag}.jsonl",
         desc=f"{name} ({tag})",
+        meta=meta,
+        allow_mixed_backend=args.allow_mixed_backend,
     )
     metrics = score(eval_preds, eval_items)
     print()
@@ -140,6 +146,8 @@ def run_experiment(
             predict,
             CHECKPOINT_DIR / f"{name}_test{suffix}.jsonl",
             desc=f"{name} (test)",
+            meta=meta,
+            allow_mixed_backend=args.allow_mixed_backend,
         )
         write_submission(test_preds, SUBMISSION_DIR / f"submission_{name}{suffix}.csv")
         clear_vram()

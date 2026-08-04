@@ -17,10 +17,11 @@ from pathlib import Path
 import torch
 from PIL import Image
 from peft import PeftModel
-from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
+from transformers import AutoProcessor, BitsAndBytesConfig
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from model import resolve_model_class  # noqa: E402
 from vqa import (  # noqa: E402
     CHECKPOINT_DIR,
     ROOT,
@@ -52,15 +53,33 @@ MAX_NEW_TOKENS = 8
 
 
 def load_model():
+    """Base em 4-bit NF4 + adapter LoRA, na mesma precisão usada no treino.
+
+    A T4 do Colab é Turing e não tem bf16 nativo; carregar em bf16 ali funciona
+    mas é emulado e lento. Detecta e usa fp16 quando bf16 não é suportado.
+    """
+    use_bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
+    compute_dtype = torch.bfloat16 if use_bf16 else torch.float16
+    backend_tag = f"cuda-4bit-{'bf16' if use_bf16 else 'fp16'}-lora"
+
     processor = AutoProcessor.from_pretrained(
         BASE_MODEL_ID, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
     )
-    base_model = Qwen2VLForConditionalGeneration.from_pretrained(
-        BASE_MODEL_ID, torch_dtype=torch.bfloat16, device_map="auto"
+    base_model = resolve_model_class().from_pretrained(
+        BASE_MODEL_ID,
+        quantization_config=BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=compute_dtype,
+            bnb_4bit_use_double_quant=True,
+        ),
+        torch_dtype=compute_dtype,
+        device_map="auto",
     )
     model = PeftModel.from_pretrained(base_model, ADAPTER_DIR)
     model.eval()
-    return model, processor
+    print(f"adapter carregado de {ADAPTER_DIR} ({backend_tag})")
+    return model, processor, backend_tag
 
 
 def make_predictor(model, processor):
@@ -109,12 +128,17 @@ def main() -> None:
     parser.add_argument("--val-only", action="store_true")
     args = parser.parse_args()
 
-    model, processor = load_model()
+    model, processor, backend_tag = load_model()
     predict = make_predictor(model, processor)
+    meta = {"backend": backend_tag}
 
     val = load_jsonl(VAL_JSONL)
     val_preds = run_predictions(
-        val, predict, CHECKPOINT_DIR / "exp6_lora_val.jsonl", desc="exp6 LoRA (val)"
+        val,
+        predict,
+        CHECKPOINT_DIR / "exp6_lora_val.jsonl",
+        desc="exp6 LoRA (val)",
+        meta=meta,
     )
     print(format_score(score(val_preds, val), "val — QLoRA fine-tuned"))
 
@@ -123,7 +147,11 @@ def main() -> None:
 
     test = load_jsonl(TEST_JSONL)
     test_preds = run_predictions(
-        test, predict, CHECKPOINT_DIR / "exp6_lora_test.jsonl", desc="exp6 LoRA (test)"
+        test,
+        predict,
+        CHECKPOINT_DIR / "exp6_lora_test.jsonl",
+        desc="exp6 LoRA (test)",
+        meta=meta,
     )
     write_submission(test_preds, SUBMISSION_DIR / "submission_lora.csv")
 

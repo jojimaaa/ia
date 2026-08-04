@@ -147,6 +147,13 @@ def main() -> None:
             "em CPU, e LoRA fp32 num 2B levaria dias. Use uma T4 do Colab."
         )
 
+    # A T4 do Colab é Turing (capacidade 7.5) e não tem bf16 nativo; o
+    # transformers valida isso e aborta com "Your setup doesn't support bf16/gpu".
+    # Ampere (A100, L4) em diante suporta.
+    use_bf16 = torch.cuda.is_bf16_supported()
+    compute_dtype = torch.bfloat16 if use_bf16 else torch.float16
+    print(f"precisão de treino: {'bf16' if use_bf16 else 'fp16'}")
+
     processor = AutoProcessor.from_pretrained(
         args.model_id, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
     )
@@ -154,7 +161,7 @@ def main() -> None:
     model_cls = resolve_model_class()
     if args.no_4bit:
         model = model_cls.from_pretrained(
-            args.model_id, torch_dtype=torch.bfloat16, device_map="auto"
+            args.model_id, torch_dtype=compute_dtype, device_map="auto"
         )
     else:
         from transformers import BitsAndBytesConfig
@@ -164,10 +171,10 @@ def main() -> None:
             quantization_config=BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
-                bnb_4bit_compute_dtype=torch.bfloat16,
+                bnb_4bit_compute_dtype=compute_dtype,
                 bnb_4bit_use_double_quant=True,
             ),
-            torch_dtype=torch.bfloat16,
+            torch_dtype=compute_dtype,
             device_map="auto",
         )
         model = prepare_model_for_kbit_training(model)
@@ -204,7 +211,8 @@ def main() -> None:
         save_strategy="steps",
         save_steps=args.save_steps,
         save_total_limit=2,
-        bf16=True,
+        bf16=use_bf16,
+        fp16=not use_bf16,
         gradient_checkpointing=True,
         report_to="none",
         remove_unused_columns=False,

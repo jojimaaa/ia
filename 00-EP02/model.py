@@ -55,6 +55,30 @@ def set_seed(seed: int) -> None:
 # --------------------------------------------------------------------------- #
 
 
+def resolve_model_class():
+    """Classe do VLM no transformers instalado; o nome mudou entre majors.
+
+    `Qwen2VLForConditionalGeneration` é o nome histórico; nas versões novas o
+    caminho genérico é `AutoModelForImageTextToText`. O lock pede >=5.14.1, onde
+    isso não é garantido, então tenta em ordem em vez de importar direto.
+    """
+    import transformers
+
+    for name in (
+        "Qwen2VLForConditionalGeneration",
+        "AutoModelForImageTextToText",
+        "AutoModelForVision2Seq",
+    ):
+        cls = getattr(transformers, name, None)
+        if cls is not None:
+            return cls
+    raise ImportError(
+        "nenhuma classe de VLM encontrada no transformers instalado "
+        "(tentei Qwen2VLForConditionalGeneration, AutoModelForImageTextToText, "
+        "AutoModelForVision2Seq)"
+    )
+
+
 class QwenBackend:
     def __init__(self, model_id: str = MODEL_ID, four_bit: bool = True):
         import torch
@@ -67,7 +91,7 @@ class QwenBackend:
             model_id, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
         )
 
-        model_cls = self._resolve_model_class()
+        model_cls = resolve_model_class()
         cuda = torch.cuda.is_available()
 
         if cuda and four_bit:
@@ -107,29 +131,6 @@ class QwenBackend:
                 "minuto por item. No Colab: Runtime > Change runtime type > T4 GPU."
             )
         print(f"modelo carregado: {model_id} ({self.tag})")
-
-    @staticmethod
-    def _resolve_model_class():
-        """O nome da classe mudou entre majors do transformers; tenta em ordem.
-
-        `Qwen2VLForConditionalGeneration` é o nome histórico; nas versões novas o
-        caminho genérico é `AutoModelForImageTextToText`.
-        """
-        import transformers
-
-        for name in (
-            "Qwen2VLForConditionalGeneration",
-            "AutoModelForImageTextToText",
-            "AutoModelForVision2Seq",
-        ):
-            cls = getattr(transformers, name, None)
-            if cls is not None:
-                return cls
-        raise ImportError(
-            "nenhuma classe de VLM encontrada no transformers instalado "
-            "(tentei Qwen2VLForConditionalGeneration, AutoModelForImageTextToText, "
-            "AutoModelForVision2Seq)"
-        )
 
     def ask(
         self,

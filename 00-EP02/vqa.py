@@ -24,6 +24,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import shutil
 import time
 from collections import Counter
 from pathlib import Path
@@ -257,6 +258,29 @@ class MixedBackendError(RuntimeError):
     """Checkpoint com registros de backends diferentes."""
 
 
+def _merge_from_mirror(local: Path, mirror: Path) -> None:
+    """Traz para `local` os registros que só existem no espelho.
+
+    Cobre os dois sentidos: sessão nova com o local vazio (restaura do Drive) e
+    local mais adiantado que o espelho (mantém o local e não perde nada).
+    """
+    if not mirror.exists():
+        return
+    from_mirror = load_checkpoint(mirror)
+    if not from_mirror:
+        return
+    merged = {**from_mirror, **load_checkpoint(local)}
+    local.parent.mkdir(parents=True, exist_ok=True)
+    with local.open("w", encoding="utf-8") as f:
+        for rec in merged.values():
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
+def _sync_to_mirror(local: Path, mirror: Path) -> None:
+    mirror.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(local, mirror)
+
+
 def run_predictions(
     items: Sequence[dict],
     predict: Callable[[dict], dict],
@@ -264,6 +288,8 @@ def run_predictions(
     desc: str = "inferência",
     meta: dict | None = None,
     allow_mixed_backend: bool = False,
+    mirror_path: Path | str | None = None,
+    mirror_every: int = 25,
 ) -> list[dict]:
     """Roda `predict` em cada item, pulando o que já está no checkpoint.
 
@@ -277,9 +303,19 @@ def run_predictions(
     diferente do atual levanta MixedBackendError: 4-bit NF4 e float32 dão
     respostas diferentes mesmo com decodificação greedy, então metade de cada
     produziria uma acurácia que não corresponde a nenhuma configuração real.
+
+    `mirror_path` copia o checkpoint para um segundo local a cada `mirror_every`
+    itens, e uma vez no fim. Serve para o Google Drive montado no Colab, onde
+    escrever direto não é durável: `flush()` entrega os bytes ao sistema
+    operacional, mas o FUSE do Drive sincroniza para a nuvem de forma assíncrona,
+    e uma VM derrubada de repente perde o que ainda não subiu. Gravando local e
+    espelhando, uma queda custa no máximo `mirror_every` itens em vez de tudo.
     """
     checkpoint_path = Path(checkpoint_path)
     checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+    mirror_path = Path(mirror_path) if mirror_path else None
+    if mirror_path:
+        _merge_from_mirror(checkpoint_path, mirror_path)
 
     done = load_checkpoint(checkpoint_path)
     pending = [it for it in items if it["index"] not in done]
@@ -300,6 +336,7 @@ def run_predictions(
                 f"--allow-mixed-backend se souber o que está fazendo."
             )
 
+    written = 0
     with checkpoint_path.open("a", encoding="utf-8") as f:
         for item in _progress(pending, desc, total=len(pending)):
             started = time.perf_counter()
@@ -314,6 +351,14 @@ def run_predictions(
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
             f.flush()
             done[item["index"]] = record
+            written += 1
+            if mirror_path and written % mirror_every == 0:
+                _sync_to_mirror(checkpoint_path, mirror_path)
+
+    # Sempre, não só quando houve item novo: numa retomada em que tudo já estava
+    # feito localmente, o espelho pode estar atrasado e é ele que sobrevive.
+    if mirror_path and checkpoint_path.exists():
+        _sync_to_mirror(checkpoint_path, mirror_path)
 
     return [done[it["index"]] for it in items if it["index"] in done]
 

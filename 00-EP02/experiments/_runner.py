@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import random
+import re
 import sys
 from pathlib import Path
 from typing import Callable
@@ -64,6 +65,9 @@ def build_argparser(description: str) -> argparse.ArgumentParser:
     p.add_argument("--dry-run", action="store_true",
                    help="backend falso, sem GPU: valida a mecânica do experimento")
     p.add_argument("--model-id", default=None)
+    p.add_argument("--adapter-dir", default=None,
+                   help="adapter LoRA a aplicar sobre a base (caminho local ou id do Hub); "
+                        "os checkpoints ganham sufixo próprio para não misturar com a base")
     p.add_argument("--no-4bit", action="store_true",
                    help="carrega sem quantização (mais VRAM)")
     p.add_argument("--allow-mixed-backend", action="store_true",
@@ -90,6 +94,21 @@ def stratified_sample(items: list[dict], n: int, seed: int) -> list[dict]:
     return picked
 
 
+def variant_suffix(args) -> str:
+    """Sufixo que identifica o MODELO, não o split.
+
+    Vai tanto no checkpoint de avaliação quanto no de teste e na submissão: rodar
+    a mesma técnica na base e num modelo ajustado produz medições distintas, e o
+    mesmo nome de arquivo as fundiria — ou, pior, faria a rodada do ajustado
+    encontrar os 1.000 itens da base já prontos e pular a inferência inteira.
+    """
+    suffix = "_dry" if args.dry_run else ""
+    if getattr(args, "adapter_dir", None):
+        slug = re.sub(r"[^A-Za-z0-9]+", "-", Path(args.adapter_dir).name).strip("-")
+        suffix += f"_ft-{slug[:24]}"
+    return suffix
+
+
 def resolve_eval_items(args) -> tuple[list[dict], str]:
     """Itens de avaliação e um sufixo que identifica o split no nome do checkpoint."""
     items = load_jsonl(SPLITS[args.split])
@@ -100,9 +119,7 @@ def resolve_eval_items(args) -> tuple[list[dict], str]:
     if args.limit:
         items = items[: args.limit]
         tag = f"{tag}-lim{args.limit}"
-    if args.dry_run:
-        tag = f"{tag}-dry"
-    return items, tag
+    return items, tag + variant_suffix(args)
 
 
 def run_experiment(
@@ -118,6 +135,8 @@ def run_experiment(
     kwargs = {"dry_run": args.dry_run, "four_bit": not args.no_4bit}
     if args.model_id:
         kwargs["model_id"] = args.model_id
+    if args.adapter_dir:
+        kwargs["adapter_dir"] = args.adapter_dir
 
     clear_vram()
     set_seed(args.seed)
@@ -150,7 +169,7 @@ def run_experiment(
     clear_vram()
 
     if args.test:
-        suffix = "_dry" if args.dry_run else ""
+        suffix = variant_suffix(args)
         test_name = f"{name}_test{suffix}.jsonl"
         test_preds = run_predictions(
             load_jsonl(TEST_JSONL),

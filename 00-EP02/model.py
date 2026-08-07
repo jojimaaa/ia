@@ -80,16 +80,39 @@ def resolve_model_class():
 
 
 class QwenBackend:
-    def __init__(self, model_id: str = MODEL_ID, four_bit: bool = True):
+    def __init__(
+        self,
+        model_id: str = MODEL_ID,
+        four_bit: bool = True,
+        adapter_dir: str | Path | None = None,
+    ):
+        """`adapter_dir` aplica um adapter LoRA sobre a base (caminho local ou id do Hub).
+
+        Usado para rodar as técnicas de prompting em cima de um modelo já
+        ajustado, em vez da base. O adapter entra na procedência gravada no
+        checkpoint: misturar respostas da base com as do modelo ajustado no mesmo
+        arquivo mediria uma configuração que não existe.
+        """
         import torch
         from transformers import AutoProcessor
 
         self.torch = torch
         self.model_id = model_id
 
-        self.processor = AutoProcessor.from_pretrained(
-            model_id, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
-        )
+        # Preferir o processor salvo junto do adapter: ele carrega os limites de
+        # pixel usados no treino, e divergir disso muda a tokenização da imagem.
+        processor_source = str(adapter_dir) if adapter_dir else model_id
+        try:
+            self.processor = AutoProcessor.from_pretrained(
+                processor_source, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
+            )
+        except Exception:
+            if not adapter_dir:
+                raise
+            print(f"adapter sem processor próprio; usando o de {model_id}")
+            self.processor = AutoProcessor.from_pretrained(
+                model_id, min_pixels=MIN_PIXELS, max_pixels=MAX_PIXELS
+            )
 
         model_cls = resolve_model_class()
         cuda = torch.cuda.is_available()
@@ -116,6 +139,12 @@ class QwenBackend:
                 torch_dtype=torch.bfloat16 if cuda else torch.float32,
                 device_map="auto" if cuda else None,
             )
+        if adapter_dir:
+            from peft import PeftModel
+
+            self.model = PeftModel.from_pretrained(self.model, str(adapter_dir))
+            print(f"adapter LoRA aplicado: {adapter_dir}")
+
         self.model.eval()
 
         # Procedência, gravada em todo registro de checkpoint. 4-bit e float32
@@ -124,6 +153,8 @@ class QwenBackend:
             self.tag = "cuda-4bit" if four_bit else "cuda-bf16"
         else:
             self.tag = "cpu-fp32"
+        if adapter_dir:
+            self.tag += f"-lora:{Path(str(adapter_dir)).name}"
 
         if not cuda:
             print(
@@ -242,9 +273,16 @@ class DryBackend:
 _backend = None
 
 
-def load_backend(dry_run: bool = False, model_id: str = MODEL_ID, four_bit: bool = True):
+def load_backend(
+    dry_run: bool = False,
+    model_id: str = MODEL_ID,
+    four_bit: bool = True,
+    adapter_dir: str | Path | None = None,
+):
     """Carrega (uma vez) o backend de geração."""
     global _backend
     if _backend is None:
-        _backend = DryBackend() if dry_run else QwenBackend(model_id, four_bit)
+        _backend = (
+            DryBackend() if dry_run else QwenBackend(model_id, four_bit, adapter_dir)
+        )
     return _backend

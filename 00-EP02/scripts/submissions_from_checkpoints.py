@@ -27,7 +27,9 @@ from vqa import (  # noqa: E402
     CHECKPOINT_DIR,
     SUBMISSION_DIR,
     TEST_JSONL,
+    clamp_to_support,
     load_jsonl,
+    question_kind,
     write_submission,
 )
 
@@ -46,6 +48,9 @@ def main() -> None:
                         help="arquivos de checkpoint; vazio = todos os *_test.jsonl")
     parser.add_argument("--checkpoint-dir", type=Path, default=CHECKPOINT_DIR)
     parser.add_argument("--out-dir", type=Path, default=SUBMISSION_DIR)
+    parser.add_argument("--clamp", action="store_true",
+                        help="troca resposta fora do suporte do treino (ex.: contagem 10, "
+                             "cujo máximo observado é 7) pela constante majoritária")
     args = parser.parse_args()
 
     expected = {item["index"] for item in load_jsonl(TEST_JSONL)}
@@ -81,6 +86,16 @@ def main() -> None:
             print(f"[aviso]      {checkpoint.name}: {len(extra)} índices fora do teste, ignorados")
 
         predictions = [by_index[i] for i in sorted(expected)]
+        if args.clamp:
+            kinds = {r["index"]: question_kind(r["question"]) for r in load_jsonl(TEST_JSONL)}
+            changed = 0
+            for p in predictions:
+                fixed = clamp_to_support(p.get("answer"), kinds[p["index"]])
+                if fixed != p.get("answer"):
+                    changed += 1
+                p["answer"] = fixed
+            if changed:
+                print(f"[clamp]      {checkpoint.name}: {changed} respostas fora do suporte trocadas")
         blank = [p["index"] for p in predictions if p.get("answer") in (None, "")]
         if blank:
             print(

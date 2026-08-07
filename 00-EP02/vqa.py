@@ -220,6 +220,39 @@ def majority_answer(kind: str, train_path: Path | str = TRAIN_JSONL) -> str:
     return _majority_cache[kind]
 
 
+_support_cache: dict[str, set[str]] | None = None
+
+
+def train_support(kind: str, train_path: Path | str = TRAIN_JSONL) -> set[str]:
+    """Respostas que de fato ocorrem no treino para esse tipo de pergunta.
+
+    Nas de contagem vai de "0" a "7"; nas de saída, "True"/"False".
+    """
+    global _support_cache
+    if _support_cache is None:
+        support: dict[str, set[str]] = {COUNT: set(), OUTPUT: set()}
+        for rec in load_jsonl(train_path):
+            support[question_kind(rec["question"])].add(rec["answer"])
+        _support_cache = support
+    return _support_cache[kind]
+
+
+def clamp_to_support(answer: str | None, kind: str) -> str:
+    """Troca resposta fora do suporte do treino pela constante majoritária.
+
+    Um valor nunca visto em 1.800 exemplos é erro garantido na correspondência
+    exata — o modelo respondendo "10" numa contagem cujo máximo observado é 7 não
+    tem chance nenhuma de acertar. Trocar por "0" converte 0% em ~38%.
+
+    Não é ajuste ao teste: o suporte sai só de data/processed/train.jsonl. É a
+    mesma lógica do `default` do clean_answer, aplicada a respostas que parseiam
+    mas são impossíveis.
+    """
+    if answer is not None and answer in train_support(kind):
+        return answer
+    return majority_answer(kind)
+
+
 # --------------------------------------------------------------------------- #
 # Loop de inferência com checkpoint incremental
 # --------------------------------------------------------------------------- #

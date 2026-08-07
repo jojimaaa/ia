@@ -22,6 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from vqa import (  # noqa: E402
     TRAIN_JSONL,
     VAL_JSONL,
+    clamp_to_support,
     clean_answer,
     format_score,
     load_jsonl,
@@ -70,6 +71,11 @@ def main() -> None:
     parser.add_argument("predictions", type=Path, help=".jsonl de checkpoint ou .csv")
     parser.add_argument("--split", choices=SPLITS, default="val")
     parser.add_argument(
+        "--clamp",
+        action="store_true",
+        help="troca resposta fora do suporte do treino pela constante majoritária",
+    )
+    parser.add_argument(
         "--reparse",
         action="store_true",
         help="reaplica clean_answer no campo 'raw' antes de pontuar",
@@ -84,6 +90,20 @@ def main() -> None:
         predictions = reparse(predictions, references)
         after = score(predictions, references)["accuracy"]
         print(f"reparse: {before:.2f}% -> {after:.2f}%\n")
+
+    if args.clamp:
+        kinds = {r["index"]: question_kind(r["question"]) for r in references}
+        before = score(predictions, references)["accuracy"]
+        changed = 0
+        for p in predictions:
+            if p["index"] not in kinds:
+                continue
+            fixed = clamp_to_support(p.get("answer"), kinds[p["index"]])
+            if fixed != p.get("answer"):
+                changed += 1
+            p["answer"] = fixed
+        after = score(predictions, references)["accuracy"]
+        print(f"clamp: {changed} respostas trocadas, {before:.2f}% -> {after:.2f}%\n")
 
     print(format_score(score(predictions, references), f"{args.predictions.name} @ {args.split}"))
 
